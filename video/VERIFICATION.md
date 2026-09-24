@@ -97,3 +97,17 @@ is made from the acknowledgements alone. The user confirmed seeing all six
 frames and requested continuous repetition. The loop is started separately
 with `video/start_animation.ps1`; `video/stop_animation.ps1` requests a clean
 stop after the current frame. While running, COM18 belongs to this process.
+
+### Longer Run Observation
+
+During the subsequent GitHub upload task, the first background loop stopped
+after 1308 acknowledged frames with a host `TimeoutError` waiting for an ACK.
+The error location was `display.receive(sequence)` in `animate.py`.
+The cause has not been established; continuous long-duration reliability
+must not be inferred from the earlier 18-frame test.
+
+A fresh status request succeeded: ready=true, SRAM initialized=true,
+SRAM error=false, bank=0, last_sequence=48, last_crc=54420. The loop was
+restarted without FPGA reprogramming and again acknowledged frames at
+approximately 3.16 fps. Automatic retry/recovery is not implemented in the
+animation runner; it deliberately stops on an unconfirmed frame.
