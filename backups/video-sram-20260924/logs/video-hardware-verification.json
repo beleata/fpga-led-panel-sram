@@ -1,0 +1,53 @@
+{
+  "before": {
+    "sequence": 0,
+    "status": 0,
+    "ready": true,
+    "sram_initialized": true,
+    "bank": 1,
+    "sram_error": false,
+    "last_sequence": 1,
+    "last_crc": 44409
+  },
+  "bad_crc_rejected": {
+    "sequence": 2,
+    "status": 2,
+    "ready": true,
+    "sram_initialized": true,
+    "bank": 1,
+    "sram_error": false,
+    "last_sequence": 1,
+    "last_crc": 44409
+  },
+  "partial_timeout_retained": {
+    "sequence": 0,
+    "status": 0,
+    "ready": true,
+    "sram_initialized": true,
+    "bank": 1,
+    "sram_error": false,
+    "last_sequence": 1,
+    "last_crc": 44409
+  },
+  "duplicate_did_not_swap": {
+    "sequence": 1,
+    "status": 0,
+    "ready": true,
+    "sram_initialized": true,
+    "bank": 1,
+    "sram_error": false,
+    "last_sequence": 1,
+    "last_crc": 44409
+  },
+  "retained_after_reconnect": {
+    "sequence": 0,
+    "status": 0,
+    "ready": true,
+    "sram_initialized": true,
+    "bank": 1,
+    "sram_error": false,
+    "last_sequence": 1,
+    "last_crc": 44409
+  },
+  "passed": true
+}

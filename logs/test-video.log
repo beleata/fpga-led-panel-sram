@@ -1,0 +1,17 @@
+test_mapping (test_sender.SenderTests.test_mapping) ... ok
+test_packet (test_sender.SenderTests.test_packet) ... ok
+test_reply (test_sender.SenderTests.test_reply) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.011s
+
+OK
+PASS boot SRAM readback, all 6144 bytes
+PASS status and exact 2 Mbaud RX/TX
+PASS frame 1, all SRAM bytes and serialized panel grayscale bits
+PASS duplicate retry and CRC rejection
+PASS partial frame timeout, previous frame retained
+PASS injected SRAM readback error rejected
+PASS second bank swap; checked       98304 panel bit clocks
+PASS break recovery; ALL TESTS PASSED
+tb_video.v:131: $finish called at 315993325000 (1ps)

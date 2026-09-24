@@ -1,0 +1,8 @@
+Sketch uses 10254 bytes (35%) of program storage space. Maximum is 28672 bytes.
+Global variables use 1744 bytes (68%) of dynamic memory, leaving 816 bytes for local variables. Maximum is 2560 bytes.
+
+Used library Version Path
+SPI          1.0     C:\Users\user\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.8\libraries\SPI
+
+Used platform Version Path
+arduino:avr   1.8.8   C:\Users\user\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.8

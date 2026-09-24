@@ -1,0 +1,9 @@
+[submodule "reference/dmd"]
+	path = reference/dmd
+	url = https://github.com/board707/DMD_STM32.git
+[submodule "reference/olimex"]
+	path = reference/olimex
+	url = https://github.com/OLIMEX/iCE40HX1K-EVB.git
+[submodule "reference/spwm"]
+	path = reference/spwm
+	url = https://github.com/kingdo9/rpi-rgb-led-matrix_pwm_experiment.git

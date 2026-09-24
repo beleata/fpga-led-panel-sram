@@ -1,0 +1,17 @@
+set_io CLK 15
+set_io TX 7
+set_io -pullup yes RX 37
+set_io R1 3
+set_io G1 4
+set_io B1 8
+set_io R2 9
+set_io G2 10
+set_io B2 12
+set_io A 13
+set_io B 16
+set_io C 18
+set_io SCLK 19
+set_io LAT 20
+set_io OE 21
+set_io LED1 40
+set_io LED2 51

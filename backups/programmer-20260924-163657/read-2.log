@@ -1,0 +1,5 @@
+Reading flash memory ...
+Reading | ################################################## | 100% 0.27s
+Writing 32768 bytes to output file flash-read-2.bin
+
+Avrdude done.  Thank you.

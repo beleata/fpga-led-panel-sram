@@ -1,0 +1,453 @@
+Info: constrained 'CLK' to bel 'X0/Y8/io1'
+Info: constrained 'TX' to bel 'X0/Y12/io1'
+Info: constrained 'RX' to bel 'X7/Y0/io1'
+Info: constrained 'R1' to bel 'X0/Y13/io1'
+Info: constrained 'G1' to bel 'X0/Y13/io0'
+Info: constrained 'B1' to bel 'X0/Y12/io0'
+Info: constrained 'R2' to bel 'X0/Y10/io1'
+Info: constrained 'G2' to bel 'X0/Y10/io0'
+Info: constrained 'B2' to bel 'X0/Y9/io1'
+Info: constrained 'A' to bel 'X0/Y9/io0'
+Info: constrained 'B' to bel 'X0/Y8/io0'
+Info: constrained 'C' to bel 'X0/Y6/io1'
+Info: constrained 'SCLK' to bel 'X0/Y6/io0'
+Info: constrained 'LAT' to bel 'X0/Y4/io1'
+Info: constrained 'OE' to bel 'X0/Y4/io0'
+Info: constrained 'LED1' to bel 'X9/Y0/io1'
+Info: constrained 'LED2' to bel 'X13/Y3/io1'
+Info: constraining clock net 'CLK' to 100.00 MHz
+Info: constraining clock net 'clk' to 25.00 MHz
+Info: constraining clock net 'display.clk' to 25.00 MHz
+
+Info: Packing constants..
+Info: Packing IOs..
+Info: Packing LUT-FFs..
+Info:      553 LCs used as LUT4 only
+Info:      228 LCs used as LUT4 and DFF
+Info: Packing non-LUT FFs..
+Info:       52 LCs used as DFF only
+Info: Packing carries..
+Info:       95 LCs used as CARRY only
+Info: Packing indirect carry+LUT pairs...
+Info:        1 LUTs merged into carry LCs
+Info: Packing RAMs..
+Info: Placing PLLs..
+Info: Packing special functions..
+Info: Packing PLLs..
+Info: Promoting globals..
+Info: promoting TX_SB_LUT4_O_I1[3] [reset] (fanout 46)
+Info: promoting CLK$SB_IO_IN (fanout 4)
+Info: promoting $PACKER_GND_NET (fanout 2)
+Info: Constraining chains...
+Info:       42 LCs used to legalise carry chains.
+Info: Checksum: 0x14a1579f
+
+Info: Device utilisation:
+Info: 	         ICESTORM_LC:     973/   1280    76%
+Info: 	        ICESTORM_RAM:       3/     16    18%
+Info: 	               SB_IO:      17/     72    23%
+Info: 	               SB_GB:       5/      8    62%
+Info: 	         SB_WARMBOOT:       0/      1     0%
+
+Info: Placed 17 cells based on constraints.
+Info: Creating initial analytic placement for 644 cells, random placement wirelen = 11014.
+Info:     at initial placer iter 0, wirelen = 212
+Info:     at initial placer iter 1, wirelen = 224
+Info:     at initial placer iter 2, wirelen = 235
+Info:     at initial placer iter 3, wirelen = 273
+Info: Running main analytical placer, max placement attempts per cell = 124500.
+Info:     at iteration #1, type ALL: wirelen solved = 219, spread = 4374, legal = 4612; time = 0.01s
+Info:     at iteration #2, type ALL: wirelen solved = 306, spread = 3750, legal = 4038; time = 0.01s
+Info:     at iteration #3, type ALL: wirelen solved = 406, spread = 3765, legal = 4005; time = 0.01s
+Info:     at iteration #4, type ALL: wirelen solved = 474, spread = 3142, legal = 3673; time = 0.01s
+Info:     at iteration #5, type ALL: wirelen solved = 521, spread = 2994, legal = 3500; time = 0.01s
+Info:     at iteration #6, type ALL: wirelen solved = 551, spread = 2830, legal = 3114; time = 0.01s
+Info:     at iteration #7, type ALL: wirelen solved = 618, spread = 2771, legal = 3264; time = 0.01s
+Info:     at iteration #8, type ALL: wirelen solved = 727, spread = 2837, legal = 3075; time = 0.01s
+Info:     at iteration #9, type ALL: wirelen solved = 792, spread = 3102, legal = 3393; time = 0.01s
+Info:     at iteration #10, type ALL: wirelen solved = 821, spread = 2634, legal = 3124; time = 0.01s
+Info:     at iteration #11, type ALL: wirelen solved = 835, spread = 2510, legal = 2959; time = 0.01s
+Info:     at iteration #12, type ALL: wirelen solved = 865, spread = 2505, legal = 2833; time = 0.01s
+Info:     at iteration #13, type ALL: wirelen solved = 926, spread = 2512, legal = 2934; time = 0.01s
+Info:     at iteration #14, type ALL: wirelen solved = 951, spread = 2444, legal = 2874; time = 0.01s
+Info:     at iteration #15, type ALL: wirelen solved = 994, spread = 2414, legal = 2719; time = 0.01s
+Info:     at iteration #16, type ALL: wirelen solved = 1073, spread = 2474, legal = 2802; time = 0.01s
+Info:     at iteration #17, type ALL: wirelen solved = 1012, spread = 2443, legal = 2798; time = 0.01s
+Info:     at iteration #18, type ALL: wirelen solved = 1052, spread = 2662, legal = 2907; time = 0.01s
+Info:     at iteration #19, type ALL: wirelen solved = 1116, spread = 2459, legal = 2977; time = 0.01s
+Info:     at iteration #20, type ALL: wirelen solved = 1003, spread = 2451, legal = 2879; time = 0.01s
+Info: HeAP Placer Time: 0.37s
+Info:   of which solving equations: 0.23s
+Info:   of which spreading cells: 0.03s
+Info:   of which strict legalisation: 0.02s
+
+Info: Running simulated annealing placer for refinement.
+Info:   at iteration #1: temp = 0.000000, timing cost = 181, wirelen = 2719
+Info:   at iteration #5: temp = 0.000000, timing cost = 216, wirelen = 2231
+Info:   at iteration #10: temp = 0.000000, timing cost = 198, wirelen = 2103
+Info:   at iteration #15: temp = 0.000000, timing cost = 182, wirelen = 2029
+Info:   at iteration #20: temp = 0.000000, timing cost = 146, wirelen = 1959
+Info:   at iteration #21: temp = 0.000000, timing cost = 182, wirelen = 1953 
+Info: SA placement time 0.61s
+
+Info: Max frequency for clock           'display.clk': 47.89 MHz (PASS at 25.00 MHz)
+Info: Max frequency for clock                   'clk': 112.40 MHz (PASS at 25.00 MHz)
+Info: Max frequency for clock 'CLK$SB_IO_IN_$glb_clk': 626.57 MHz (PASS at 100.00 MHz)
+
+Info: Clock '$PACKER_GND_NET_$glb_clk' has no interior paths
+
+Info: Max delay <async>             -> posedge clk: 1.06 ns
+Info: Max delay posedge clk         -> <async>    : 6.63 ns
+Info: Max delay posedge display.clk -> <async>    : 2.74 ns
+
+Info: Slack histogram:
+Info:  legend: * represents 4 endpoint(s)
+Info:          + represents [1,4) endpoint(s)
+Info: [  8404,   9930) |*+
+Info: [  9930,  11456) | 
+Info: [ 11456,  12982) | 
+Info: [ 12982,  14508) | 
+Info: [ 14508,  16034) | 
+Info: [ 16034,  17560) | 
+Info: [ 17560,  19086) | 
+Info: [ 19086,  20612) |*+
+Info: [ 20612,  22138) |****+
+Info: [ 22138,  23664) |****+
+Info: [ 23664,  25190) | 
+Info: [ 25190,  26716) |*+
+Info: [ 26716,  28242) | 
+Info: [ 28242,  29768) |*+
+Info: [ 29768,  31294) |*****+
+Info: [ 31294,  32820) |****************************+
+Info: [ 32820,  34346) |*****************************************+
+Info: [ 34346,  35872) |************************************+
+Info: [ 35872,  37398) |********************************************+
+Info: [ 37398,  38924) |************************************************************ 
+Info: Checksum: 0xc07a8e71
+
+Info: Routing..
+Info: Setting up routing queue.
+Info: Routing 2965 arcs.
+Info:            |   (re-)routed arcs  |   delta    | remaining|       time spent     |
+Info:    IterCnt |  w/ripup   wo/ripup |  w/r  wo/r |      arcs| batch(sec) total(sec)|
+Info:       1000 |      151        796 |  151   796 |      2139|       0.12       0.12|
+Info:       2000 |      307       1571 |  156   775 |      1342|       0.08       0.20|
+Info:       3000 |      446       2286 |  139   715 |       527|       0.06       0.27|
+Info:       3616 |      517       2804 |   71   518 |         0|       0.06       0.33|
+Info: Routing complete.
+Info: Router1 time 0.33s
+Info: Checksum: 0x13d7904b
+
+Info: Critical path report for clock 'display.clk' (posedge -> posedge):
+Info:       type curr  total name
+Info:   clk-to-q  0.54  0.54 Source display.state_SB_DFFESS_Q_2_D_SB_LUT4_O_LC.O
+Info:    routing  0.59  1.13 Net display.state_SB_DFFESR_Q_D_SB_LUT4_O_I3[1] (4,9) -> (4,9)
+Info:                          Sink display.state_SB_DFFESS_Q_2_D_SB_LUT4_O_I1_SB_LUT4_O_LC.I0
+Info:                          Defined in:
+Info:                               ../panel/panel.v:127.26-127.38
+Info:                               C:\oss-cad-suite\bin\../share/yosys/gate2lut.v:29.7-32.6
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/cells_map.v:6.21-6.22
+Info:      logic  0.45  1.58 Source display.state_SB_DFFESS_Q_2_D_SB_LUT4_O_I1_SB_LUT4_O_LC.O
+Info:    routing  0.59  2.16 Net display.state_SB_DFFESR_Q_D[0] (4,9) -> (4,10)
+Info:                          Sink display.state_SB_DFFESS_Q_2_D_SB_LUT4_O_I1_SB_LUT4_I0_1_LC.I0
+Info:                          Defined in:
+Info:                               ../panel/panel.v:143.30-143.42
+Info:                               ../panel/panel.v:143.26-151.52
+Info:                               C:\oss-cad-suite\bin\../share/yosys/gate2lut.v:46.7-49.6
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/cells_map.v:6.21-6.22
+Info:      logic  0.45  2.61 Source display.state_SB_DFFESS_Q_2_D_SB_LUT4_O_I1_SB_LUT4_I0_1_LC.O
+Info:    routing  0.59  3.20 Net display.state_SB_DFFESS_Q_2_D_SB_LUT4_O_I1_SB_LUT4_I0_1_O[0] (4,10) -> (4,10)
+Info:                          Sink display.state_SB_DFFESS_Q_2_D_SB_LUT4_O_I1_SB_LUT4_I0_1_O_SB_LUT4_I0_LC.I0
+Info:                          Defined in:
+Info:                               ../panel/panel.v:137.34-137.45
+Info:                               C:\oss-cad-suite\bin\../share/yosys/gate2lut.v:29.7-32.6
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/cells_map.v:6.21-6.22
+Info:      logic  0.45  3.65 Source display.state_SB_DFFESS_Q_2_D_SB_LUT4_O_I1_SB_LUT4_I0_1_O_SB_LUT4_I0_LC.O
+Info:    routing  0.59  4.24 Net display.state_SB_DFFESS_Q_2_D_SB_LUT4_O_I1_SB_LUT4_I0_1_O_SB_LUT4_I0_O[0] (4,10) -> (4,11)
+Info:                          Sink display.state_SB_DFFESS_Q_2_D_SB_LUT4_O_I1_SB_LUT4_I0_1_O_SB_LUT4_I0_O_SB_LUT4_I0_LC.I0
+Info:                          Defined in:
+Info:                               ../panel/panel.v:143.30-143.42
+Info:                               ../panel/panel.v:143.26-151.52
+Info:                               C:\oss-cad-suite\bin\../share/yosys/gate2lut.v:46.7-49.6
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/cells_map.v:6.21-6.22
+Info:      logic  0.45  4.68 Source display.state_SB_DFFESS_Q_2_D_SB_LUT4_O_I1_SB_LUT4_I0_1_O_SB_LUT4_I0_O_SB_LUT4_I0_LC.O
+Info:    routing  1.27  5.96 Net display.state_SB_DFFESS_Q_2_D_SB_LUT4_O_I1_SB_LUT4_I0_1_O_SB_LUT4_I0_O_SB_LUT4_I0_O[0] (4,11) -> (2,9)
+Info:                          Sink display.state_SB_DFFESS_Q_2_D_SB_LUT4_O_I1_SB_LUT4_I0_1_O_SB_LUT4_I0_2_O_SB_LUT4_O_I0_SB_LUT4_I0_1_O_SB_LUT4_O_1_LC.I0
+Info:                          Defined in:
+Info:                               ../panel/panel.v:107.31-107.31
+Info:                               ../panel/panel.v:101.9-110.16
+Info:                               C:\oss-cad-suite\bin\../share/yosys/gate2lut.v:29.7-32.6
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/cells_map.v:6.21-6.22
+Info:      logic  0.45  6.41 Source display.state_SB_DFFESS_Q_2_D_SB_LUT4_O_I1_SB_LUT4_I0_1_O_SB_LUT4_I0_2_O_SB_LUT4_O_I0_SB_LUT4_I0_1_O_SB_LUT4_O_1_LC.O
+Info:    routing  0.59  6.99 Net display.state_SB_DFFESS_Q_2_D_SB_LUT4_O_I1_SB_LUT4_I0_1_O_SB_LUT4_I0_2_O_SB_LUT4_O_I0_SB_LUT4_I0_1_O[0] (2,9) -> (1,10)
+Info:                          Sink display.length_SB_LUT4_O_I2_SB_LUT4_O_LC.I0
+Info:                          Defined in:
+Info:                               ../panel/panel.v:107.31-107.31
+Info:                               ../panel/panel.v:101.9-110.16
+Info:                               C:\oss-cad-suite\bin\../share/yosys/gate2lut.v:29.7-32.6
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/cells_map.v:6.21-6.22
+Info:      logic  0.45  7.44 Source display.length_SB_LUT4_O_I2_SB_LUT4_O_LC.O
+Info:    routing  0.59  8.03 Net display.length_SB_LUT4_O_I2[7] (1,10) -> (2,9)
+Info:                          Sink display.length_SB_LUT4_O_LC.I2
+Info:                          Defined in:
+Info:                               ../panel/panel.v:131.30-131.40
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/arith_map.v:33.23-33.24
+Info:      logic  0.38  8.41 Source display.length_SB_LUT4_O_LC.O
+Info:    routing  0.59  9.00 Net display.length[0] (2,9) -> (2,10)
+Info:                          Sink $nextpnr_ICESTORM_LC_22.I1
+Info:                          Defined in:
+Info:                               ../panel/panel.v:131.30-131.40
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:      logic  0.26  9.26 Source $nextpnr_ICESTORM_LC_22.COUT
+Info:    routing  0.00  9.26 Net $nextpnr_ICESTORM_LC_22$O (2,10) -> (2,10)
+Info:                          Sink display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_I3_SB_LUT4_O_I3_SB_LUT4_O_LC.CIN
+Info:      logic  0.13  9.38 Source display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_I3_SB_LUT4_O_I3_SB_LUT4_O_LC.COUT
+Info:    routing  0.00  9.38 Net display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I3[2] (2,10) -> (2,10)
+Info:                          Sink display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_I3_SB_LUT4_O_I3_SB_LUT4_O_5_LC.CIN
+Info:                          Defined in:
+Info:                               ../panel/panel.v:131.30-131.40
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:      logic  0.13  9.51 Source display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_I3_SB_LUT4_O_I3_SB_LUT4_O_5_LC.COUT
+Info:    routing  0.00  9.51 Net display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I3[3] (2,10) -> (2,10)
+Info:                          Sink display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_I3_SB_LUT4_O_I3_SB_LUT4_O_4_LC.CIN
+Info:                          Defined in:
+Info:                               ../panel/panel.v:131.30-131.40
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:      logic  0.13  9.63 Source display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_I3_SB_LUT4_O_I3_SB_LUT4_O_4_LC.COUT
+Info:    routing  0.00  9.63 Net display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I3[4] (2,10) -> (2,10)
+Info:                          Sink display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_I3_SB_LUT4_O_I3_SB_LUT4_O_3_LC.CIN
+Info:                          Defined in:
+Info:                               ../panel/panel.v:131.30-131.40
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:      logic  0.13  9.76 Source display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_I3_SB_LUT4_O_I3_SB_LUT4_O_3_LC.COUT
+Info:    routing  0.00  9.76 Net display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I3[5] (2,10) -> (2,10)
+Info:                          Sink display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_I3_SB_LUT4_O_I3_SB_LUT4_O_2_LC.CIN
+Info:                          Defined in:
+Info:                               ../panel/panel.v:131.30-131.40
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:      logic  0.13  9.89 Source display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_I3_SB_LUT4_O_I3_SB_LUT4_O_2_LC.COUT
+Info:    routing  0.00  9.89 Net display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I3[6] (2,10) -> (2,10)
+Info:                          Sink display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_I3_SB_LUT4_O_I3_SB_LUT4_O_6_LC.CIN
+Info:                          Defined in:
+Info:                               ../panel/panel.v:131.30-131.40
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:      logic  0.13  10.01 Source display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_I3_SB_LUT4_O_I3_SB_LUT4_O_6_LC.COUT
+Info:    routing  0.00  10.01 Net display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I3[7] (2,10) -> (2,10)
+Info:                          Sink display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_I3_SB_LUT4_O_I3_SB_LUT4_O_7_LC.CIN
+Info:                          Defined in:
+Info:                               ../panel/panel.v:131.30-131.40
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:      logic  0.13  10.14 Source display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_I3_SB_LUT4_O_I3_SB_LUT4_O_7_LC.COUT
+Info:    routing  0.20  10.33 Net $nextpnr_ICESTORM_LC_23$I3 (2,10) -> (2,11)
+Info:                          Sink $nextpnr_ICESTORM_LC_23.CIN
+Info:      logic  0.13  10.46 Source $nextpnr_ICESTORM_LC_23.COUT
+Info:    routing  0.00  10.46 Net $nextpnr_ICESTORM_LC_23$COUT (2,11) -> (2,11)
+Info:                          Sink display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_2_I3_SB_LUT4_O_LC.CIN
+Info:      logic  0.13  10.59 Source display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_2_I3_SB_LUT4_O_LC.COUT
+Info:    routing  0.26  10.84 Net $nextpnr_ICESTORM_LC_24$I3 (2,11) -> (2,11)
+Info:                          Sink $nextpnr_ICESTORM_LC_24.I3
+Info:      logic  0.31  11.16 Source $nextpnr_ICESTORM_LC_24.O
+Info:    routing  0.59  11.75 Net display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I3[10] (2,11) -> (2,12)
+Info:                          Sink display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_I3_SB_LUT4_O_I3_SB_LUT4_O_1_LC.I0
+Info:                          Defined in:
+Info:                               ../panel/panel.v:131.30-131.40
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:      logic  0.45  12.19 Source display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_I3_SB_LUT4_O_I3_SB_LUT4_O_1_LC.O
+Info:    routing  0.59  12.78 Net display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_I3_SB_LUT4_O_I3[10] (2,12) -> (2,12)
+Info:                          Sink display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_1_I3_SB_LUT4_O_1_LC.I1
+Info:                          Defined in:
+Info:                               ../panel/panel.v:131.30-131.40
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/arith_map.v:33.26-33.27
+Info:      logic  0.40  13.18 Source display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_1_I3_SB_LUT4_O_1_LC.O
+Info:    routing  0.59  13.77 Net display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_1_I3[0] (2,12) -> (2,12)
+Info:                          Sink display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_1_LC.I0
+Info:                          Defined in:
+Info:                               ../panel/panel.v:131.21-131.40
+Info:                               C:\oss-cad-suite\bin\../share/yosys/gate2lut.v:29.7-32.6
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/cells_map.v:6.21-6.22
+Info:      logic  0.45  14.22 Source display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_1_LC.O
+Info:    routing  0.59  14.81 Net display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_I2[1] (2,12) -> (2,11)
+Info:                          Sink display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_LC.I1
+Info:                          Defined in:
+Info:                               ../panel/panel.v:131.21-131.40
+Info:                               C:\oss-cad-suite\bin\../share/yosys/gate2lut.v:29.7-32.6
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/cells_map.v:6.21-6.22
+Info:      logic  0.40  15.20 Source display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_O_LC.O
+Info:    routing  1.27  16.48 Net display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_1_I3_SB_LUT4_O_I0_SB_LUT4_I1_I2_SB_LUT4_O_I0[2] (2,11) -> (5,7)
+Info:                          Sink display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_I0_LC.I0
+Info:                          Defined in:
+Info:                               ../panel/panel.v:131.21-131.40
+Info:                               ../panel/panel.v:131.17-152.48
+Info:                               C:\oss-cad-suite\bin\../share/yosys/gate2lut.v:83.7-86.6
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/cells_map.v:6.21-6.22
+Info:      logic  0.45  16.93 Source display.phase_SB_DFFESR_Q_7_D_SB_LUT4_I0_O_SB_LUT4_O_1_I1_SB_LUT4_I1_O_SB_LUT4_O_I2_SB_LUT4_I0_LC.O
+Info:    routing  1.27  18.20 Net display.configured_SB_DFFE_Q_E_SB_LUT4_O_I0[0] (5,7) -> (2,3)
+Info:                          Sink SCLK_SB_DFFE_Q_D_SB_LUT4_I0_O_SB_LUT4_I0_O_SB_LUT4_O_1_LC.I1
+Info:                          Defined in:
+Info:                               C:\oss-cad-suite\bin\../share/yosys/gate2lut.v:46.7-49.6
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/cells_map.v:6.21-6.22
+Info:      logic  0.40  18.60 Source SCLK_SB_DFFE_Q_D_SB_LUT4_I0_O_SB_LUT4_I0_O_SB_LUT4_O_1_LC.O
+Info:    routing  0.59  19.19 Net SCLK_SB_DFFE_Q_D_SB_LUT4_I0_O_SB_LUT4_I0_O[0] (2,3) -> (2,3)
+Info:                          Sink display.phase_SB_DFFESR_Q_E_SB_LUT4_O_LC.I0
+Info:                          Defined in:
+Info:                               C:\oss-cad-suite\bin\../share/yosys/gate2lut.v:46.7-49.6
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/cells_map.v:6.21-6.22
+Info:      logic  0.45  19.64 Source display.phase_SB_DFFESR_Q_E_SB_LUT4_O_LC.O
+Info:    routing  1.62  21.25 Net display.phase_SB_DFFESR_Q_E (2,3) -> (2,3)
+Info:                          Sink display.phase_SB_DFFESR_Q_7_DFFLC.CEN
+Info:      setup  0.10  21.35 Source display.phase_SB_DFFESR_Q_7_DFFLC.CEN
+Info: 8.40 ns logic, 12.95 ns routing
+
+Info: Critical path report for clock 'clk' (posedge -> posedge):
+Info:       type curr  total name
+Info:   clk-to-q  0.54  0.54 Source probe.low_count_SB_DFFESR_Q_18_DFFLC.O
+Info:    routing  0.59  1.13 Net probe.low_count_SB_DFFESR_Q_D_SB_LUT4_O_I3[1] (7,3) -> (7,4)
+Info:                          Sink probe.low_count_SB_DFFESR_Q_18_D_SB_LUT4_O_LC.I0
+Info:                          Defined in:
+Info:                               link_diag.v:53.57-53.73
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:      logic  0.45  1.58 Source probe.low_count_SB_DFFESR_Q_18_D_SB_LUT4_O_LC.O
+Info:    routing  0.59  2.16 Net probe.low_count_SB_DFFESR_Q_18_D[0] (7,4) -> (7,3)
+Info:                          Sink probe.low_count_SB_DFFESR_Q_18_D_SB_LUT4_I0_LC.I0
+Info:                          Defined in:
+Info:                               link_diag.v:53.57-53.73
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/arith_map.v:33.26-33.27
+Info:      logic  0.45  2.61 Source probe.low_count_SB_DFFESR_Q_18_D_SB_LUT4_I0_LC.O
+Info:    routing  0.59  3.20 Net probe.low_count_SB_DFFESR_Q_18_D_SB_LUT4_I0_O[0] (7,3) -> (7,3)
+Info:                          Sink probe.low_count_SB_DFFESR_Q_18_D_SB_LUT4_I0_O_SB_LUT4_I3_LC.I0
+Info:                          Defined in:
+Info:                               link_diag.v:53.18-53.42
+Info:                               C:\oss-cad-suite\bin\../share/yosys/gate2lut.v:46.7-49.6
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/cells_map.v:6.21-6.22
+Info:      logic  0.45  3.65 Source probe.low_count_SB_DFFESR_Q_18_D_SB_LUT4_I0_O_SB_LUT4_I3_LC.O
+Info:    routing  0.59  4.24 Net probe.low_count_SB_DFFESR_Q_18_D_SB_LUT4_I0_O_SB_LUT4_I3_O[2] (7,3) -> (7,4)
+Info:                          Sink probe.train_state_SB_DFFESS_Q_D_SB_LUT4_O_I1_SB_LUT4_O_I0_SB_LUT4_I2_O_SB_LUT4_O_I1_SB_LUT4_I1_O_SB_LUT4_I3_O_SB_LUT4_O_LC.I2
+Info:                          Defined in:
+Info:                               link_diag.v:53.18-53.42
+Info:                               C:\oss-cad-suite\bin\../share/yosys/gate2lut.v:46.7-49.6
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/cells_map.v:6.21-6.22
+Info:      logic  0.38  4.61 Source probe.train_state_SB_DFFESS_Q_D_SB_LUT4_O_I1_SB_LUT4_O_I0_SB_LUT4_I2_O_SB_LUT4_O_I1_SB_LUT4_I1_O_SB_LUT4_I3_O_SB_LUT4_O_LC.O
+Info:    routing  0.59  5.20 Net probe.train_state_SB_DFFESS_Q_D_SB_LUT4_O_I1_SB_LUT4_O_I0_SB_LUT4_I2_O_SB_LUT4_O_I1_SB_LUT4_I1_O_SB_LUT4_I2_O[2] (7,4) -> (8,5)
+Info:                          Sink probe.train_state_SB_DFFESS_Q_D_SB_LUT4_O_I1_SB_LUT4_O_I0_SB_LUT4_I2_O_SB_LUT4_O_I2_SB_LUT4_O_LC.I0
+Info:                          Defined in:
+Info:                               C:\oss-cad-suite\bin\../share/yosys/gate2lut.v:46.7-49.6
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/cells_map.v:6.21-6.22
+Info:      logic  0.45  5.65 Source probe.train_state_SB_DFFESS_Q_D_SB_LUT4_O_I1_SB_LUT4_O_I0_SB_LUT4_I2_O_SB_LUT4_O_I2_SB_LUT4_O_LC.O
+Info:    routing  0.59  6.24 Net probe.train_state_SB_DFFESS_Q_D_SB_LUT4_O_I1_SB_LUT4_O_I0_SB_LUT4_I2_O_SB_LUT4_O_I2[2] (8,5) -> (8,5)
+Info:                          Sink probe.train_state_SB_DFFESS_Q_D_SB_LUT4_O_I1_SB_LUT4_O_I0_SB_LUT4_I2_O_SB_LUT4_O_LC.I2
+Info:                          Defined in:
+Info:                               C:\oss-cad-suite\bin\../share/yosys/gate2lut.v:29.7-32.6
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/cells_map.v:6.21-6.22
+Info:      logic  0.38  6.62 Source probe.train_state_SB_DFFESS_Q_D_SB_LUT4_O_I1_SB_LUT4_O_I0_SB_LUT4_I2_O_SB_LUT4_O_LC.O
+Info:    routing  0.59  7.20 Net probe.train_state_SB_DFFESS_Q_D_SB_LUT4_O_I1_SB_LUT4_O_I0_SB_LUT4_I2_O[0] (8,5) -> (8,4)
+Info:                          Sink probe.train_state_SB_DFFESS_Q_D_SB_LUT4_O_I1_SB_LUT4_O_I0_SB_LUT4_I2_O_SB_LUT4_I1_LC.I0
+Info:                          Defined in:
+Info:                               C:\oss-cad-suite\bin\../share/yosys/gate2lut.v:46.7-49.6
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/cells_map.v:6.21-6.22
+Info:      logic  0.45  7.65 Source probe.train_state_SB_DFFESS_Q_D_SB_LUT4_O_I1_SB_LUT4_O_I0_SB_LUT4_I2_O_SB_LUT4_I1_LC.O
+Info:    routing  1.62  9.27 Net probe.train_state_SB_DFFESS_Q_D_SB_LUT4_O_I1_SB_LUT4_O_I0_SB_LUT4_I2_O_SB_LUT4_I1_O (8,4) -> (9,2)
+Info:                          Sink probe.guard_count_SB_DFFESR_Q_D_SB_LUT4_O_10_LC.CEN
+Info:      setup  0.10  9.37 Source probe.guard_count_SB_DFFESR_Q_D_SB_LUT4_O_10_LC.CEN
+Info: 3.64 ns logic, 5.73 ns routing
+
+Info: Critical path report for clock 'CLK$SB_IO_IN_$glb_clk' (posedge -> posedge):
+Info:       type curr  total name
+Info:   clk-to-q  0.54  0.54 Source display.div_SB_DFF_Q_1_D_SB_LUT4_O_LC.O
+Info:    routing  0.59  1.13 Net display.div[0] (4,1) -> (4,1)
+Info:                          Sink display.div_SB_DFF_Q_1_D_SB_LUT4_O_LC.I0
+Info:                          Defined in:
+Info:                               ../panel/panel.v:25.15-25.18
+Info:      setup  0.47  1.60 Source display.div_SB_DFF_Q_1_D_SB_LUT4_O_LC.I0
+Info: 1.01 ns logic, 0.59 ns routing
+
+Info: Critical path report for cross-domain path '<async>' -> 'posedge clk':
+Info:       type curr  total name
+Info:     source  0.00  0.00 Source RX$sb_io.D_IN_0
+Info:    routing  0.59  0.59 Net RX$SB_IO_IN (7,0) -> (8,1)
+Info:                          Sink RX_SB_LUT4_I0_LC.I0
+Info:                          Defined in:
+Info:                               link_diag.v:2.16-2.18
+Info:      setup  0.47  1.06 Source RX_SB_LUT4_I0_LC.I0
+Info: 0.47 ns logic, 0.59 ns routing
+
+Info: Critical path report for cross-domain path 'posedge clk' -> '<async>':
+Info:       type curr  total name
+Info:   clk-to-q  0.54  0.54 Source probe.train_state_SB_DFFESS_Q_D_SB_LUT4_O_1_LC.O
+Info:    routing  0.59  1.13 Net probe.receiver.rst_SB_LUT4_O_I1[0] (11,6) -> (11,7)
+Info:                          Sink probe.receiver.rst_SB_LUT4_O_I0_SB_LUT4_O_LC.I0
+Info:                          Defined in:
+Info:                               link_diag.v:66.44-66.44
+Info:                               link_diag.v:57.18-70.16
+Info:                               C:\oss-cad-suite\bin\../share/yosys/gate2lut.v:29.7-32.6
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/cells_map.v:6.21-6.22
+Info:      logic  0.45  1.58 Source probe.receiver.rst_SB_LUT4_O_I0_SB_LUT4_O_LC.O
+Info:    routing  0.59  2.16 Net probe.receiver.rst_SB_LUT4_O_I0[0] (11,7) -> (11,7)
+Info:                          Sink probe.receiver.rst_SB_LUT4_O_LC.I0
+Info:                          Defined in:
+Info:                               link_diag.v:58.71-58.71
+Info:                               link_diag.v:57.18-70.16
+Info:                               C:\oss-cad-suite\bin\../share/yosys/gate2lut.v:29.7-32.6
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/cells_map.v:6.21-6.22
+Info:      logic  0.45  2.61 Source probe.receiver.rst_SB_LUT4_O_LC.O
+Info:    routing  1.64  4.26 Net TX_SB_LUT4_O_I1[3] (11,7) -> (8,13)
+Info:                          Sink LED1_SB_LUT4_O_LC.I0
+Info:                          Defined in:
+Info:                               C:\oss-cad-suite\bin\../share/yosys/gate2lut.v:29.7-32.6
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/cells_map.v:6.21-6.22
+Info:      logic  0.45  4.70 Source LED1_SB_LUT4_O_LC.O
+Info:    routing  2.07  6.78 Net LED1$SB_IO_OUT (8,13) -> (9,0)
+Info:                          Sink LED1$sb_io.D_OUT_0
+Info:                          Defined in:
+Info:                               C:\oss-cad-suite\bin\../share/yosys/gate2lut.v:46.7-49.6
+Info:                               C:\oss-cad-suite\bin\../share/yosys/ice40/cells_map.v:6.21-6.22
+Info: 1.88 ns logic, 4.89 ns routing
+
+Info: Critical path report for cross-domain path 'posedge display.clk' -> '<async>':
+Info:       type curr  total name
+Info:   clk-to-q  0.54  0.54 Source display.LED2_SB_LUT4_I2_LC.O
+Info:    routing  0.59  1.13 Net display.LED2 (12,4) -> (11,4)
+Info:                          Sink LED2_SB_LUT4_O_LC.I1
+Info:                          Defined in:
+Info:                               ../panel/panel.v:34.16-34.25
+Info:      logic  0.40  1.53 Source LED2_SB_LUT4_O_LC.O
+Info:    routing  1.27  2.80 Net LED2$SB_IO_OUT (11,4) -> (13,3)
+Info:                          Sink LED2$sb_io.D_OUT_0
+Info:                          Defined in:
+Info:                               link_diag.v:4.53-4.57
+Info: 0.94 ns logic, 1.86 ns routing
+
+Info: Max frequency for clock           'display.clk': 46.83 MHz (PASS at 25.00 MHz)
+Info: Max frequency for clock                   'clk': 106.72 MHz (PASS at 25.00 MHz)
+Info: Max frequency for clock 'CLK$SB_IO_IN_$glb_clk': 626.57 MHz (PASS at 100.00 MHz)
+
+Info: Clock '$PACKER_GND_NET_$glb_clk' has no interior paths
+
+Info: Max delay <async>             -> posedge clk: 1.06 ns
+Info: Max delay posedge clk         -> <async>    : 6.78 ns
+Info: Max delay posedge display.clk -> <async>    : 2.80 ns
+
+Info: Slack histogram:
+Info:  legend: * represents 4 endpoint(s)
+Info:          + represents [1,4) endpoint(s)
+Info: [  8404,   9923) |*+
+Info: [  9923,  11442) | 
+Info: [ 11442,  12961) | 
+Info: [ 12961,  14480) | 
+Info: [ 14480,  15999) | 
+Info: [ 15999,  17518) | 
+Info: [ 17518,  19037) |*+
+Info: [ 19037,  20556) |**+
+Info: [ 20556,  22075) |****+
+Info: [ 22075,  23594) |*+
+Info: [ 23594,  25113) | 
+Info: [ 25113,  26632) |*+
+Info: [ 26632,  28151) | 
+Info: [ 28151,  29670) |+
+Info: [ 29670,  31189) |**********+
+Info: [ 31189,  32708) |********************************+
+Info: [ 32708,  34227) |****************************+
+Info: [ 34227,  35746) |*************************************+
+Info: [ 35746,  37265) |*********************************************+
+Info: [ 37265,  38784) |************************************************************ 
+
+Info: Program finished normally.

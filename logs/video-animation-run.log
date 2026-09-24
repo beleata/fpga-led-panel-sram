@@ -1,0 +1,30 @@
+Frame 1, cycle 1: 0.330s, ACK OK
+Frame 2, cycle 1: 0.312s, ACK OK
+Frame 3, cycle 1: 0.320s, ACK OK
+Frame 4, cycle 1: 0.309s, ACK OK
+Frame 5, cycle 1: 0.319s, ACK OK
+Frame 6, cycle 1: 0.310s, ACK OK
+Frame 1, cycle 2: 0.319s, ACK OK
+Frame 2, cycle 2: 0.320s, ACK OK
+Frame 3, cycle 2: 0.309s, ACK OK
+Frame 4, cycle 2: 0.322s, ACK OK
+Frame 5, cycle 2: 0.312s, ACK OK
+Frame 6, cycle 2: 0.320s, ACK OK
+Frame 1, cycle 3: 0.313s, ACK OK
+Frame 2, cycle 3: 0.312s, ACK OK
+Frame 3, cycle 3: 0.314s, ACK OK
+Frame 4, cycle 3: 0.320s, ACK OK
+Frame 5, cycle 3: 0.320s, ACK OK
+Frame 6, cycle 3: 0.311s, ACK OK
+{
+  "frames": 18,
+  "cycles": 3,
+  "hold_seconds": 0,
+  "wall_seconds": 5.69446230000176,
+  "fps": 3.1609656982002385,
+  "mean_send_seconds": 0.2576832388885022,
+  "mean_ack_seconds": 0.058570022222233495,
+  "min_frame_seconds": 0.30882389999896986,
+  "max_frame_seconds": 0.3302250000015192,
+  "all_acknowledged": true
+}

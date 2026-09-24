@@ -1,0 +1,15 @@
+[
+  {
+    "requested_baud": 4800,
+    "actual_avr_baud": 4796.163069544365,
+    "bytes_tested": 512,
+    "bytes_received": 512,
+    "wrong_bytes": 0,
+    "missing_bytes": 0,
+    "seconds": 1.1428896999968856,
+    "payload_bytes_per_second": 447.9872379647793,
+    "passed": true,
+    "seed": 104729,
+    "mode": "48-byte full-duplex XOR-A5 round-trip bursts"
+  }
+]

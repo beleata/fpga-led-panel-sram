@@ -1,0 +1,11 @@
+{
+  "sequence": 1,
+  "status": 0,
+  "ready": true,
+  "sram_initialized": true,
+  "bank": 1,
+  "sram_error": false,
+  "last_sequence": 1,
+  "last_crc": 44409,
+  "seconds": 0.323
+}

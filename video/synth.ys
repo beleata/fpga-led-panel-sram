@@ -1,0 +1,14 @@
+read_verilog -sv video.v panel_scan.v uart.v frame_memory.v frame_protocol.v
+# This Windows Yosys ABC9 build asserts in XAIGER2. Map through classic ABC.
+synth_ice40 -noabc -top video -run begin:map_luts
+techmap -map ../panel/ornot2lut.v
+opt_clean -purge
+abc -lut 4 video
+# Do not run the noabc gate2lut stage again: it expands the optimized LUTs.
+ice40_wrapcarry -unwrap
+techmap -map +/ice40/ff_map.v
+clean
+opt_lut -tech ice40
+synth_ice40 -noabc -top video -run map_cells:
+write_json video.json
+stat

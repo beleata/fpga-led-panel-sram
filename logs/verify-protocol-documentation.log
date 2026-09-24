@@ -1,0 +1,13 @@
+state=0 t=55000 count=0
+state=1 t=2615000 count=0
+state=2 t=5015000 count=0
+state=3 t=8855000 count=0
+state=4 t=29335000 count=0
+state=5 t=49815000 count=0
+state=6 t=70295000 count=0
+state=7 t=90775000 count=0
+state=8 t=111255000 count=0
+state=9 t=113175000 count=0
+state=11 t=2734615000 count=0
+PASS: register broadcast; full frames; all 8 binary addresses; all 6144 grayscale words of the static pattern
+tb_panel.v:49: $finish called at 64896055000 (1ps)

@@ -1,0 +1,194 @@
+{
+  "frames": 18,
+  "cycles": 3,
+  "hold_seconds": 0,
+  "wall_seconds": 5.69446230000176,
+  "fps": 3.1609656982002385,
+  "mean_send_seconds": 0.2576832388885022,
+  "mean_ack_seconds": 0.058570022222233495,
+  "min_frame_seconds": 0.30882389999896986,
+  "max_frame_seconds": 0.3302250000015192,
+  "all_acknowledged": true,
+  "records": [
+    {
+      "cycle": 1,
+      "frame": 1,
+      "sequence": 2,
+      "send_seconds": 0.2621252999997523,
+      "ack_seconds": 0.0680997000017669,
+      "total_seconds": 0.3302250000015192,
+      "bank": 0,
+      "crc": 3077
+    },
+    {
+      "cycle": 1,
+      "frame": 2,
+      "sequence": 3,
+      "send_seconds": 0.2605174000018451,
+      "ack_seconds": 0.051071300000330666,
+      "total_seconds": 0.31158870000217576,
+      "bank": 1,
+      "crc": 39461
+    },
+    {
+      "cycle": 1,
+      "frame": 3,
+      "sequence": 4,
+      "send_seconds": 0.2568597999998019,
+      "ack_seconds": 0.06334869999773218,
+      "total_seconds": 0.3202084999975341,
+      "bank": 0,
+      "crc": 25661
+    },
+    {
+      "cycle": 1,
+      "frame": 4,
+      "sequence": 5,
+      "send_seconds": 0.25656439999875147,
+      "ack_seconds": 0.052259500000218395,
+      "total_seconds": 0.30882389999896986,
+      "bank": 1,
+      "crc": 10932
+    },
+    {
+      "cycle": 1,
+      "frame": 5,
+      "sequence": 6,
+      "send_seconds": 0.25665569999910076,
+      "ack_seconds": 0.06234989999938989,
+      "total_seconds": 0.31900559999849065,
+      "bank": 0,
+      "crc": 58867
+    },
+    {
+      "cycle": 1,
+      "frame": 6,
+      "sequence": 7,
+      "send_seconds": 0.2565623000009509,
+      "ack_seconds": 0.053345799999078736,
+      "total_seconds": 0.30990810000002966,
+      "bank": 1,
+      "crc": 970
+    },
+    {
+      "cycle": 2,
+      "frame": 1,
+      "sequence": 8,
+      "send_seconds": 0.25653439999950933,
+      "ack_seconds": 0.062329299998964416,
+      "total_seconds": 0.31886369999847375,
+      "bank": 0,
+      "crc": 55456
+    },
+    {
+      "cycle": 2,
+      "frame": 2,
+      "sequence": 9,
+      "send_seconds": 0.2566382999975758,
+      "ack_seconds": 0.06336370000281022,
+      "total_seconds": 0.32000200000038603,
+      "bank": 1,
+      "crc": 20096
+    },
+    {
+      "cycle": 2,
+      "frame": 3,
+      "sequence": 10,
+      "send_seconds": 0.2565194999988307,
+      "ack_seconds": 0.052948900000046706,
+      "total_seconds": 0.30946839999887743,
+      "bank": 0,
+      "crc": 26416
+    },
+    {
+      "cycle": 2,
+      "frame": 4,
+      "sequence": 11,
+      "send_seconds": 0.25785790000009,
+      "ack_seconds": 0.06393390000084764,
+      "total_seconds": 0.32179180000093766,
+      "bank": 1,
+      "crc": 10681
+    },
+    {
+      "cycle": 2,
+      "frame": 5,
+      "sequence": 12,
+      "send_seconds": 0.2588503999977547,
+      "ack_seconds": 0.05318550000083633,
+      "total_seconds": 0.31203589999859105,
+      "bank": 0,
+      "crc": 12630
+    },
+    {
+      "cycle": 2,
+      "frame": 6,
+      "sequence": 13,
+      "send_seconds": 0.2568372999994608,
+      "ack_seconds": 0.06343619999825023,
+      "total_seconds": 0.32027349999771104,
+      "bank": 1,
+      "crc": 55151
+    },
+    {
+      "cycle": 3,
+      "frame": 1,
+      "sequence": 14,
+      "send_seconds": 0.25847929999872576,
+      "ack_seconds": 0.05444509999870206,
+      "total_seconds": 0.3129243999974278,
+      "bank": 0,
+      "crc": 25820
+    },
+    {
+      "cycle": 3,
+      "frame": 2,
+      "sequence": 15,
+      "send_seconds": 0.25939909999942756,
+      "ack_seconds": 0.052809000000706874,
+      "total_seconds": 0.31220810000013444,
+      "bank": 1,
+      "crc": 62204
+    },
+    {
+      "cycle": 3,
+      "frame": 3,
+      "sequence": 16,
+      "send_seconds": 0.2591217000008328,
+      "ack_seconds": 0.054452799999126,
+      "total_seconds": 0.3135744999999588,
+      "bank": 0,
+      "crc": 56662
+    },
+    {
+      "cycle": 3,
+      "frame": 4,
+      "sequence": 17,
+      "send_seconds": 0.25638880000042263,
+      "ack_seconds": 0.06403280000085942,
+      "total_seconds": 0.32042160000128206,
+      "bank": 1,
+      "crc": 37855
+    },
+    {
+      "cycle": 3,
+      "frame": 5,
+      "sequence": 18,
+      "send_seconds": 0.25478279999879305,
+      "ack_seconds": 0.06545660000119824,
+      "total_seconds": 0.3202393999999913,
+      "bank": 0,
+      "crc": 23704
+    },
+    {
+      "cycle": 3,
+      "frame": 6,
+      "sequence": 19,
+      "send_seconds": 0.2576039000014134,
+      "ack_seconds": 0.053391699999338016,
+      "total_seconds": 0.31099560000075144,
+      "bank": 1,
+      "crc": 47777
+    }
+  ]
+}

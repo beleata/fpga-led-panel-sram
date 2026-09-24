@@ -1,0 +1,3 @@
+Backup: C:\Users\user\Documents\fpga\backups\20260924-130648-flash-prefix.bin (32768 bytes), SHA256 a0e989f3c27b0b00d7529ce7302dc18e03625cf16af6ce73d31789934944ed76
+VERIFIED: 32768 bytes, bitstream SHA256 5a7233112e1aa24e5ceb7df4c31320ab26ab8ffeb151e88ea7a6c429205c7bd7
+STATUS: (247, b'\x01\x01\x01')

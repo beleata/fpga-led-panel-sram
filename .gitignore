@@ -1,0 +1,37 @@
+# Local secrets and machine state must never enter the repository.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+credentials.json
+secrets.json
+__pycache__/
+*.py[cod]
+
+# Reproducible compiler/simulator intermediates. Keep .bin/.hex releases.
+*.vvp
+*.asc
+*.elf
+*.o
+*.a
+*.d
+*.cache
+**/video.json
+**/panel.json
+**/link_diag.json
+**/programmer-fw/build-link/core/
+**/programmer-fw/build-link/libraries/
+**/programmer-fw/build-link/sketch/
+**/programmer-fw/build-link/build.options.json
+**/programmer-fw/build-link/compile_commands.json
+
+# Live animation state and logs change while the hardware is running.
+video/animation-live.json
+video/animation-live.tmp
+video/animation-process.json
+video/animation.stop
+logs/animation-loop.*.log
+logs/video-animation-loop.json

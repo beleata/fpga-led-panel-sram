@@ -1,0 +1,10 @@
+read_verilog -sv panel.v
+synth_ice40 -noabc -top panel -run begin:map_ffs
+techmap -map ornot2lut.v
+opt_clean -purge
+synth_ice40 -noabc -top panel -run map_ffs:map_gates
+techmap -map ornot2lut.v
+opt_clean -purge
+synth_ice40 -noabc -top panel -run map_luts:check
+write_json panel.json
+stat

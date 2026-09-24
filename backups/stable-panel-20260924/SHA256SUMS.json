@@ -1,0 +1,102 @@
+[
+  {
+    "path": "PANEL_PROTOCOL_BG.md",
+    "sha256": "2238d510155de9b6fd6b6cbf2a5ea45ed5f799f3d837d7e91e17b666f14d6ea6"
+  },
+  {
+    "path": "HARDWARE.md",
+    "sha256": "552ebc7940b151b7e1435ba207739fde218fbbd99bc330d1cef556e7c789ea67"
+  },
+  {
+    "path": "build.ps1",
+    "sha256": "c71ebd38bd8e4c4fa57d3982a523d266094c10c7e7f4fc9ac0388188cd9c86fc"
+  },
+  {
+    "path": "program_panel.py",
+    "sha256": "173f99a40a8f3e7c8ae97595059cbad6fc8f6a55566b2a663b50bb67ef775548"
+  },
+  {
+    "path": "iceprog.py",
+    "sha256": "a7c096b0ad27fc58770a982e7b7890d16d5cab075602b72336c8b3129096fd0d"
+  },
+  {
+    "path": "panel/panel.v",
+    "sha256": "68aa3a68de78c238825a634a100d18e95fb449561c4891abe7afc61a38d502d4"
+  },
+  {
+    "path": "panel/panel.bin",
+    "sha256": "b78fb7d55cf977bcf4902dc009b04d8d9af7a3111f0af55a4674b78caf37d09f"
+  },
+  {
+    "path": "panel/panel.pcf",
+    "sha256": "933f8415208d2989b2f8c86b6a3125181135815f9f8f8de48664d1896234de70"
+  },
+  {
+    "path": "panel/pattern.hex",
+    "sha256": "0ae72041fd8743b5f0fbea20774cd37a18ce9818176ab96c217c53943392f2b6"
+  },
+  {
+    "path": "panel/make_pattern.py",
+    "sha256": "47bbfe8439591587f85bfc5c1a77ff85907f4870cdbc93220414d3b1ca4e7c18"
+  },
+  {
+    "path": "panel/test_mapping.py",
+    "sha256": "1abdbaae857e6158da8619eaf5bbf097566d11b3d2ca77de617781f147eb829d"
+  },
+  {
+    "path": "panel/tb_panel.v",
+    "sha256": "eec24a196c8770bf1ada04877f6c03d16a156d842bbdb5436af06d6005bee0ed"
+  },
+  {
+    "path": "panel/tb_static_hold.v",
+    "sha256": "aa9d9036b5142cfa7433c165e026934c68700bf900e5afc3e5c2b88f7016bda1"
+  },
+  {
+    "path": "panel/clocks.py",
+    "sha256": "02563fb0b67ed80fb7030b8ad7960bbb5838000e35b44578481d0a2a7d453f10"
+  },
+  {
+    "path": "panel/synth.ys",
+    "sha256": "b1d24874975d79cfc426b5dd0ecb98323e30b40168752030d0390bcc165e5757"
+  },
+  {
+    "path": "panel/ornot2lut.v",
+    "sha256": "dced5c39292f8686b848db6e0a392f375ea504af9eb2cd3743eb5aeec13121bf"
+  },
+  {
+    "path": "panel/pattern-expected.png",
+    "sha256": "25968d35a9ab35ad94e21fa1721076b5c34346aa60baf8a4e5c092ffeb8c3ae5"
+  },
+  {
+    "path": "panel/pattern-upside-down.png",
+    "sha256": "df18ff6f38ff702b02061d29fa9a4095f16ebed1093445bf2f69d67d3e8986d3"
+  },
+  {
+    "path": "panel/NOTES.md",
+    "sha256": "31e85cb4cf715cd261ac7540c77695e7288a00fe3034ffd718b04dec4b19a455"
+  },
+  {
+    "path": "panel/route.log",
+    "sha256": "f169f878b11a9f1bb4a3842f6c1cca7de7f681adad5d2aa4f888d991e55635f1"
+  },
+  {
+    "path": "panel/synthesis.log",
+    "sha256": "7f6afcb8886ff59fd1f11a6383cba795a18b9895bd9b32b6550f6b33150a6e3f"
+  },
+  {
+    "path": "logs/program-static-continuous.log",
+    "sha256": "badfd75bc8d23f4c9278eac5db267807b84e38ef32741cf2253ed9781df0e995"
+  },
+  {
+    "path": "logs/build-static-continuous.log",
+    "sha256": "495e46fc65d2155e1723001d99e062b2b06016e8af34eca5609581378a8d6959"
+  },
+  {
+    "path": "logs/verify-protocol-documentation.log",
+    "sha256": "44658e13a0af29f7aafd2932eabf4aac959cf0d9569e3b5e64b5bb5e753b31ab"
+  },
+  {
+    "path": "logs/verify-static-documentation.log",
+    "sha256": "ed6476099b7629988b79cbaa32828409b1497272ecc76da1424f874837156440"
+  }
+]

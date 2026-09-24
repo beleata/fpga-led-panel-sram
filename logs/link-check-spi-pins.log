@@ -1,0 +1,8 @@
+SPI_PIN_OUTPUT_RESET (68, b'')
+JEDEC (239, 64, 21)
+READ 0 8ffd0eae3e2b4012720a212eaf71c29dcc047009f705d715dd7138c1145ebb43 ffffffffffffffffffffffffffffffff
+READ 1 9e0ff734bf3b8221d0f65e8e13634c082a54d5e3c1a365ba916dae60c623caad ffffffffffffffffffffffffffffffff
+READ 2 418bedb2bc86c340d754f477f8123f44ea3821a8f4fdad1f511863778fc7a54b ffffffffffffffffffffffffffffffff
+STABLE False
+DIFF_COUNTS [28, 39]
+STATUS (247, b'\x00\x01\x01')

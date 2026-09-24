@@ -1,0 +1,10 @@
+read_verilog -sv ../panel/panel.v link_diag.v
+synth_ice40 -noabc -top link_diag -run begin:map_ffs
+techmap -map ../panel/ornot2lut.v
+opt_clean -purge
+synth_ice40 -noabc -top link_diag -run map_ffs:map_gates
+techmap -map ../panel/ornot2lut.v
+opt_clean -purge
+synth_ice40 -noabc -top link_diag -run map_luts:check
+write_json link_diag.json
+stat

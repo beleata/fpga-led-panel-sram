@@ -1,0 +1,15 @@
+PING 0 (240, b'')
+PING 1 (240, b'')
+PING 2 (240, b'')
+PING 3 (240, b'')
+PING 4 (240, b'')
+STATUS_BEFORE (247, b'\x00\x01\x01')
+STATUS_RESET (247, b'\x00\x00\x01')
+JEDEC_IDS [(239, 64, 21), (239, 64, 21), (239, 64, 21), (239, 64, 21), (239, 64, 21), (239, 64, 21), (239, 64, 21), (239, 64, 21), (239, 64, 21), (239, 64, 21)]
+READ 0 sha256 50dac0c8bcee2164b0de36ee370e2b91ce480d26ce143e70288343d95244776d first32 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+READ 1 sha256 69dac8fc9faf5d84fe419400f1ddbdaee6d092ad8b5494bdd0d78e5e6663c1f2 first32 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+READ 2 sha256 418bedb2bc86c340d754f477f8123f44ea3821a8f4fdad1f511863778fc7a54b first32 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+DIFFERENCES 1 37 first_offsets ['0x2903', '0x2904', '0x2905', '0x2906', '0x2907', '0x2908', '0x2909', '0x290a', '0x290b', '0x290c', '0x290d', '0x290e']
+DIFFERENCES 2 37 first_offsets ['0x2903', '0x2904', '0x2905', '0x2906', '0x2907', '0x2908', '0x2909', '0x290a', '0x290b', '0x290c', '0x290d', '0x290e']
+MATCHES_WORKING_IMAGE False
+STATUS_RELEASED (247, b'\x00\x01\x01')

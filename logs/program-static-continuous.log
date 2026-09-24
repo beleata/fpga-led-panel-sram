@@ -1,0 +1,11 @@
+Backup: C:\Users\user\Documents\fpga\backups\20260924-134756-flash-prefix.bin (32768 bytes), SHA256 ff2a7c114be222d22ba39545aa478d7f77fb513dc22b2197a4355bafc99c1f8f
+Sector 0x0000: verified (attempt 1)
+Sector 0x1000: verified (attempt 1)
+Sector 0x2000: verified (attempt 1)
+Sector 0x3000: verified (attempt 1)
+Sector 0x4000: verified (attempt 1)
+Sector 0x5000: verified (attempt 1)
+Sector 0x6000: verified (attempt 1)
+Sector 0x7000: verified (attempt 1)
+VERIFIED: 32768 bytes, bitstream SHA256 b78fb7d55cf977bcf4902dc009b04d8d9af7a3111f0af55a4674b78caf37d09f
+STATUS: (247, b'\x01\x01\x01')
