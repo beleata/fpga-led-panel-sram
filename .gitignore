@@ -40,3 +40,17 @@ logs/video-animation-loop.json
 pico/build/
 pico/generated/
 pico/backups/
+
+# PCB editor state, crash snapshots, and diagnostic scratch files stay local.
+hardware/**/.history/
+hardware/**/checkpoints/
+hardware/**/*.kicad_prl
+hardware/**/*.lck
+hardware/**/*.tmp
+hardware/**/~*
+hardware/**/_autosave-*
+hardware/**/*-backups/
+hardware/pico-panel/reports/probe*
+hardware/pico-panel/panel-series-migration.kicad_pro
+# This download is an HTML error page, not a datasheet.
+hardware/pico-panel/reference/ABM8-25MHz.pdf

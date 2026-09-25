@@ -1,0 +1,15 @@
+{
+  "status": "DEVELOPMENT SNAPSHOT - NOT FOR MANUFACTURE",
+  "components": 103,
+  "layers": 2,
+  "manual_placement_preserved": true,
+  "sha256": {
+    "pico-panel.kicad_sch": "29b05b1d85bc5da3082c0e0d175b0d484b1fe02eab70369bfbdd3b8a7f7efca5",
+    "pico-panel.kicad_pcb": "13a6807eb77eade8427a76ba9a4077238702e1887fd3ff2a67ac982773582622",
+    "pico-panel.kicad_pro": "c6ca8985f57c10f6cc43836c442dc318772848e4851603f2665e4b26c02ecdc8",
+    "routing-trial/pico-panel.kicad_pcb": "1b58344d0c20db4f51da92139832684ead3baba977da0ff6b296e4c70fe827b3",
+    "routing-trial/drc.json": "ca308cf59cf4877ee46a5818c0abda4e325e8dc5bb70cca8318d788f366eaa86",
+    "parts.json": "9183eef4e11128193aa3a572719eb629201f47a4496c7f65ff804f2e5ef5bfb1",
+    "BOM.csv": "2ff7c2fb674f645fe170a249a0d64ace91bc794b21ac9e47be524543d3519052"
+  }
+}

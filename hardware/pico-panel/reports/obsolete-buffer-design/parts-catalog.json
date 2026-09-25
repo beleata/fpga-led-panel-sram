@@ -1,0 +1,522 @@
+[
+  {
+    "code": "C14663",
+    "intended": [
+      "100n"
+    ],
+    "catalog": {
+      "LCSC Part": "C14663",
+      "First Category": "Capacitors",
+      "Second Category": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+      "MFR.Part": "CC0603KRX7R9BB104",
+      "Package": "0603",
+      "Solder Joint": 0,
+      "Manufacturer": "YAGEO",
+      "Library Type": "Basic",
+      "Description": "100nF 50V X7R ±10%",
+      "Datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf",
+      "Price": "1-:0.012",
+      "Stock": "50740587"
+    }
+  },
+  {
+    "code": "C1525",
+    "intended": [
+      "100n"
+    ],
+    "catalog": {
+      "LCSC Part": "C1525",
+      "First Category": "Capacitors",
+      "Second Category": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+      "MFR.Part": "CL05B104KO5NNNC",
+      "Package": "0402",
+      "Solder Joint": 0,
+      "Manufacturer": "Samsung Electro-Mechanics",
+      "Library Type": "Basic",
+      "Description": "100nF 16V X7R ±10%",
+      "Datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf",
+      "Price": "1-:0.004",
+      "Stock": "31445182"
+    }
+  },
+  {
+    "code": "C15849",
+    "intended": [
+      "1u"
+    ],
+    "catalog": {
+      "LCSC Part": "C15849",
+      "First Category": "Capacitors",
+      "Second Category": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+      "MFR.Part": "CL10A105KB8NNNC",
+      "Package": "0603",
+      "Solder Joint": 0,
+      "Manufacturer": "Samsung Electro-Mechanics",
+      "Library Type": "Basic",
+      "Description": "1uF 50V X5R ±10%",
+      "Datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A105KB8NNNC_C15849.pdf",
+      "Price": "1-:0.011",
+      "Stock": "7769690"
+    }
+  },
+  {
+    "code": "C1644",
+    "intended": [
+      "15p"
+    ],
+    "catalog": {
+      "LCSC Part": "C1644",
+      "First Category": "Capacitors",
+      "Second Category": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+      "MFR.Part": "CL10C150JB8NNNC",
+      "Package": "0603",
+      "Solder Joint": 0,
+      "Manufacturer": "Samsung Electro-Mechanics",
+      "Library Type": "Basic",
+      "Description": "15pF 50V C0G ±5%",
+      "Datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C150JB8NNNC_C1644.pdf",
+      "Price": "1-:0.012",
+      "Stock": "1260340"
+    }
+  },
+  {
+    "code": "C165948",
+    "intended": [
+      "USB-C"
+    ],
+    "catalog": {
+      "LCSC Part": "C165948",
+      "First Category": "Connectors",
+      "Second Category": "USB Connectors",
+      "MFR.Part": "TYPE-C-31-M-12",
+      "Package": "SMD",
+      "Solder Joint": 0,
+      "Manufacturer": "Korean Hroparts Elec",
+      "Library Type": "Extended",
+      "Description": "-30℃~+80℃ 1 10,000 cycles 16P 20V 5A 7.35mm Female Surface Mount, Right Angle Type-C",
+      "Datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2205251630_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf",
+      "Price": "1-49:0.186,50-149:0.147,150-999:0.128,1000-1999:0.103,2000-4999:0.099,5000-:0.096",
+      "Stock": "231008"
+    }
+  },
+  {
+    "code": "C17909",
+    "intended": [
+      "120 0.25W"
+    ],
+    "catalog": {
+      "LCSC Part": "C17909",
+      "First Category": "Resistors",
+      "Second Category": "Chip Resistor - Surface Mount",
+      "MFR.Part": "1206W4F1200T5E",
+      "Package": "1206",
+      "Solder Joint": 0,
+      "Manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "Library Type": "Basic",
+      "Description": "-55℃~+155℃ 120Ω 200V 250mW Thick Film Resistor ±1% ±100ppm/℃",
+      "Datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F1200T5E_C17909.pdf",
+      "Price": "1-:0.007",
+      "Stock": "711495"
+    }
+  },
+  {
+    "code": "C179171",
+    "intended": [
+      "W25Q64JVSSIQ"
+    ],
+    "catalog": {
+      "LCSC Part": "C179171",
+      "First Category": "Memory",
+      "Second Category": "NOR FLASH",
+      "MFR.Part": "W25Q64JVSSIQ",
+      "Package": "SOIC-8-208mil",
+      "Solder Joint": 0,
+      "Manufacturer": "Winbond Elec",
+      "Library Type": "Extended",
+      "Description": "-40℃~+85℃ 100,000 cycles 10uA 133MHz 150ms@(64KB) 2.7V~3.6V 20 Years 3ms 64Mbit SPI",
+      "Datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_1912211532_Winbond-Elec-W25Q64JVSSIQ_C179171.pdf",
+      "Price": "1-9:2.013,10-29:1.748,30-99:1.561,100-499:1.390,500-999:1.310,1000-:1.278",
+      "Stock": "3447"
+    }
+  },
+  {
+    "code": "C19666",
+    "intended": [
+      "4.7u"
+    ],
+    "catalog": {
+      "LCSC Part": "C19666",
+      "First Category": "Capacitors",
+      "Second Category": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+      "MFR.Part": "CL10A475KO8NNNC",
+      "Package": "0603",
+      "Solder Joint": 0,
+      "Manufacturer": "Samsung Electro-Mechanics",
+      "Library Type": "Basic",
+      "Description": "16V 4.7uF X5R ±10%",
+      "Datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf",
+      "Price": "1-99:0.033,100-299:0.025,300-999:0.021,1000-3999:0.018,4000-7999:0.017,8000-:0.016",
+      "Stock": "3500341"
+    }
+  },
+  {
+    "code": "C2040",
+    "intended": [
+      "RP2040"
+    ],
+    "catalog": {
+      "LCSC Part": "C2040",
+      "First Category": "Embedded Processors & Controllers",
+      "Second Category": "Microcontrollers (MCU/MPU/SOC)",
+      "MFR.Part": "RP2040",
+      "Package": "LQFN-56(7x7)",
+      "Solder Joint": 0,
+      "Manufacturer": "Raspberry Pi",
+      "Library Type": "Extended",
+      "Description": "12bit 133MHz 30",
+      "Datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2201101600_Raspberry-Pi-RP2040_C2040.pdf",
+      "Price": "1-9:0.990,10-29:0.902,30-99:0.819,100-499:0.758,500-999:0.732,1000-:0.721",
+      "Stock": "48250"
+    }
+  },
+  {
+    "code": "C20625731",
+    "intended": [
+      "ABM8-272-T3 12MHz"
+    ],
+    "catalog": {
+      "LCSC Part": "C20625731",
+      "First Category": "Crystals, Oscillators, Resonators",
+      "Second Category": "Crystals",
+      "MFR.Part": "ABM8-272-T3",
+      "Package": "SMD3225-4P",
+      "Solder Joint": 0,
+      "Manufacturer": "Abracon LLC",
+      "Library Type": "Extended",
+      "Description": "-40℃~+85℃ 10pF 12MHz 50Ω Crystal Oscillator ±30ppm ±30ppm",
+      "Datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121909_Abracon-LLC-ABM8-272-T3_C20625731.pdf",
+      "Price": "1-9:0.620,10-29:0.509,30-99:0.464,100-499:0.405,500-999:0.379,1000-:0.363",
+      "Stock": "22751"
+    }
+  },
+  {
+    "code": "C21190",
+    "intended": [
+      "1k"
+    ],
+    "catalog": {
+      "LCSC Part": "C21190",
+      "First Category": "Resistors",
+      "Second Category": "Chip Resistor - Surface Mount",
+      "MFR.Part": "0603WAF1001T5E",
+      "Package": "0603",
+      "Solder Joint": 0,
+      "Manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "Library Type": "Basic",
+      "Description": "-55℃~+155℃ 100mW 1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃",
+      "Datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf",
+      "Price": "1-:0.003",
+      "Stock": "24762583"
+    }
+  },
+  {
+    "code": "C2297",
+    "intended": [
+      "STATUS green"
+    ],
+    "catalog": {
+      "LCSC Part": "C2297",
+      "First Category": "Optoelectronics",
+      "Second Category": "LED Indication - Discrete",
+      "MFR.Part": "KT-0805G",
+      "Package": "0805",
+      "Solder Joint": 0,
+      "Manufacturer": "Hubei KENTO Elec",
+      "Library Type": "Basic",
+      "Description": "-40℃~+85℃ 100mW 120° 2.6V~3.1V 430mcd 513nm~528nm 525nm 5mA Discrete Diode Emerald Green Water Clear",
+      "Datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_1806151820_Hubei-KENTO-Elec-KT-0805G_C2297.pdf",
+      "Price": "1-499:0.016,500-2999:0.013,3000-:0.010",
+      "Stock": "1544477"
+    }
+  },
+  {
+    "code": "C23140",
+    "intended": [
+      "33"
+    ],
+    "catalog": {
+      "LCSC Part": "C23140",
+      "First Category": "Resistors",
+      "Second Category": "Chip Resistor - Surface Mount",
+      "MFR.Part": "0603WAF330JT5E",
+      "Package": "0603",
+      "Solder Joint": 0,
+      "Manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "Library Type": "Basic",
+      "Description": "-55℃~+155℃ 100mW 33Ω 75V Thick Film Resistor ±1% ±100ppm/℃",
+      "Datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF330JT5E_C23140.pdf",
+      "Price": "1-:0.003",
+      "Stock": "5359219"
+    }
+  },
+  {
+    "code": "C23186",
+    "intended": [
+      "5.1k"
+    ],
+    "catalog": {
+      "LCSC Part": "C23186",
+      "First Category": "Resistors",
+      "Second Category": "Chip Resistor - Surface Mount",
+      "MFR.Part": "0603WAF5101T5E",
+      "Package": "0603",
+      "Solder Joint": 0,
+      "Manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "Library Type": "Basic",
+      "Description": "-55℃~+155℃ 100mW 5.1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃",
+      "Datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF5101T5E_C23186.pdf",
+      "Price": "1-:0.002",
+      "Stock": "23270871"
+    }
+  },
+  {
+    "code": "C2480",
+    "intended": [
+      "SS14"
+    ],
+    "catalog": {
+      "LCSC Part": "C2480",
+      "First Category": "Diodes",
+      "Second Category": "Schottky Diodes",
+      "MFR.Part": "SS14",
+      "Package": "SMA(DO-214AC)",
+      "Solder Joint": 0,
+      "Manufacturer": "MDD(Microdiode Semiconductor)",
+      "Library Type": "Basic",
+      "Description": "-55℃~+150℃ 1A 25A 300uA@40V 40V 550mV@1A Independent",
+      "Datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2407101109_MDD-Microdiode-Semiconductor-SS14_C2480.pdf",
+      "Price": "1-499:0.019,500-1499:0.015,1500-4999:0.013,5000-:0.010",
+      "Stock": "1122576"
+    }
+  },
+  {
+    "code": "C25190",
+    "intended": [
+      "27"
+    ],
+    "catalog": {
+      "LCSC Part": "C25190",
+      "First Category": "Resistors",
+      "Second Category": "Chip Resistor - Surface Mount",
+      "MFR.Part": "0603WAF270JT5E",
+      "Package": "0603",
+      "Solder Joint": 0,
+      "Manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "Library Type": "Preferred",
+      "Description": "-55℃~+155℃ 100mW 27Ω 75V Thick Film Resistor ±1% ±200ppm/℃",
+      "Datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311845_UNI-ROYAL-Uniroyal-Elec-0603WAF270JT5E_C25190.pdf",
+      "Price": "1-:0.002",
+      "Stock": "231220"
+    }
+  },
+  {
+    "code": "C25803",
+    "intended": [
+      "100k"
+    ],
+    "catalog": {
+      "LCSC Part": "C25803",
+      "First Category": "Resistors",
+      "Second Category": "Chip Resistor - Surface Mount",
+      "MFR.Part": "0603WAF1003T5E",
+      "Package": "0603",
+      "Solder Joint": 0,
+      "Manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "Library Type": "Basic",
+      "Description": "-55℃~+155℃ 100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃",
+      "Datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf",
+      "Price": "1-:0.004",
+      "Stock": "23408682"
+    }
+  },
+  {
+    "code": "C25804",
+    "intended": [
+      "10k"
+    ],
+    "catalog": {
+      "LCSC Part": "C25804",
+      "First Category": "Resistors",
+      "Second Category": "Chip Resistor - Surface Mount",
+      "MFR.Part": "0603WAF1002T5E",
+      "Package": "0603",
+      "Solder Joint": 0,
+      "Manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "Library Type": "Basic",
+      "Description": "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃",
+      "Datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf",
+      "Price": "1-:0.003",
+      "Stock": "24922280"
+    }
+  },
+  {
+    "code": "C25819",
+    "intended": [
+      "47k"
+    ],
+    "catalog": {
+      "LCSC Part": "C25819",
+      "First Category": "Resistors",
+      "Second Category": "Chip Resistor - Surface Mount",
+      "MFR.Part": "0603WAF4702T5E",
+      "Package": "0603",
+      "Solder Joint": 0,
+      "Manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "Library Type": "Basic",
+      "Description": "-55℃~+155℃ 100mW 47kΩ 75V Thick Film Resistor ±1% ±100ppm/℃",
+      "Datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF4702T5E_C25819.pdf",
+      "Price": "1-:0.004",
+      "Stock": "2445030"
+    }
+  },
+  {
+    "code": "C32677",
+    "intended": [
+      "SM712"
+    ],
+    "catalog": {
+      "LCSC Part": "C32677",
+      "First Category": "Circuit Protection",
+      "Second Category": "ESD and Surge Protection (TVS/ESD)",
+      "MFR.Part": "PSM712-LF-T7",
+      "Package": "SOT-23",
+      "Solder Joint": 0,
+      "Manufacturer": "ProTek Devices",
+      "Library Type": "Basic",
+      "Description": "-55℃~+150℃ 12V 13.3V 19V 1uA、20uA 30A@8/20us、34A@8/20us 600W@8/20us 75pF IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 TVS Unidirectional",
+      "Datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811061632_ProTek-Devices-PSM712-LF-T7_C32677.pdf",
+      "Price": "1-49:0.323,50-149:0.253,150-499:0.219,500-2999:0.189,3000-5999:0.180,6000-:0.175",
+      "Stock": "94561"
+    }
+  },
+  {
+    "code": "C51118",
+    "intended": [
+      "AP2112K-3.3"
+    ],
+    "catalog": {
+      "LCSC Part": "C51118",
+      "First Category": "Power Management (PMIC)",
+      "Second Category": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+      "MFR.Part": "AP2112K-3.3TRG1",
+      "Package": "SOT-25-5",
+      "Solder Joint": 0,
+      "Manufacturer": "Diodes Incorporated",
+      "Library Type": "Extended",
+      "Description": "-40℃~+85℃@(Ta) 1 250mV@(600mA) 3.3V 50uVrms 55uA 600mA 65dB@(1kHz) 6V Fixed Over Current Protection、Thermal Shutdown、Enable control Positive",
+      "Datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Diodes-Incorporated-AP2112K-3-3TRG1_C51118.pdf",
+      "Price": "1-49:0.171,50-149:0.136,150-499:0.118,500-2999:0.103,3000-5999:0.094,6000-:0.092",
+      "Stock": "63917"
+    }
+  },
+  {
+    "code": "C57928",
+    "intended": [
+      "SN65HVD75DR"
+    ],
+    "catalog": {
+      "LCSC Part": "C57928",
+      "First Category": "Interface",
+      "Second Category": "RS-485 / RS-422 ICs",
+      "MFR.Part": "SN65HVD75DR",
+      "Package": "SOIC-8",
+      "Solder Joint": 0,
+      "Manufacturer": "Texas Instruments",
+      "Library Type": "Extended",
+      "Description": "-40℃~+125℃ 1 1 20Mbps 213 3V~3.6V 950uA Half-Duplex Transceiver ±15kV",
+      "Datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810181621_Texas-Instruments-SN65HVD75DR_C57928.pdf",
+      "Price": "1-9:0.581,10-29:0.469,30-99:0.413,100-499:0.365,500-999:0.350,1000-:0.342",
+      "Stock": "45344"
+    }
+  },
+  {
+    "code": "C70076",
+    "intended": [
+      "PTC 0.5A"
+    ],
+    "catalog": {
+      "LCSC Part": "C70076",
+      "First Category": "Circuit Protection",
+      "Second Category": "Resettable Fuses",
+      "MFR.Part": "nSMD050-24V",
+      "Package": "1206",
+      "Solder Joint": 0,
+      "Manufacturer": "TECHFUSE",
+      "Library Type": "Extended",
+      "Description": "1.4mm 1.8mm 100A 100ms 150mΩ 1A 24V 3.5mm 500mA 600mW 700mΩ",
+      "Datasheet": "https://jlcpcb.com/partdetail/TECHFUSE-nSMD05024V/C70076",
+      "Price": "1-99:0.058,100-299:0.048,300-999:0.043,1000-3499:0.040,3500-10499:0.029,10500-:0.028",
+      "Stock": "37033"
+    }
+  },
+  {
+    "code": "C7519",
+    "intended": [
+      "USBLC6-2SC6"
+    ],
+    "catalog": {
+      "LCSC Part": "C7519",
+      "First Category": "Circuit Protection",
+      "Second Category": "ESD and Surge Protection (TVS/ESD)",
+      "MFR.Part": "USBLC6-2SC6",
+      "Package": "SOT-23-6L",
+      "Solder Joint": 0,
+      "Manufacturer": "STMicroelectronics",
+      "Library Type": "Extended",
+      "Description": "-40℃~+125℃ 150nA 17V 2 3.5pF 5.25V 5A 6V ESD IEC 61000-4-2 Unidirectional",
+      "Datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121836_STMicroelectronics-USBLC6-2SC6_C7519.pdf",
+      "Price": "1-49:0.183,50-149:0.143,150-499:0.123,500-2999:0.105,3000-5999:0.101,6000-:0.098",
+      "Stock": "38564"
+    }
+  },
+  {
+    "code": "C7668",
+    "intended": [
+      "SN74LVC244APWR"
+    ],
+    "catalog": {
+      "LCSC Part": "C7668",
+      "First Category": "Logic",
+      "Second Category": "Buffers, Drivers, Receivers, Transceivers",
+      "MFR.Part": "SN74LVC244APWR",
+      "Package": "TSSOP-20",
+      "Solder Joint": 0,
+      "Manufacturer": "Texas Instruments",
+      "Library Type": "Extended",
+      "Description": "-40℃~+125℃ 1.65V~3.6V 2 24mA 24mA 3.9ns@3.3V,50pF 4 40uA 74LVC Tri-State Unidirectional",
+      "Datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-SN74LVC244APWR_C7668.pdf",
+      "Price": "1-49:0.309,50-149:0.242,150-499:0.214,500-1999:0.179,2000-3999:0.163,4000-:0.153",
+      "Stock": "50054"
+    }
+  },
+  {
+    "code": "C8545",
+    "intended": [
+      "2N7002"
+    ],
+    "catalog": {
+      "LCSC Part": "C8545",
+      "First Category": "Transistors/Thyristors",
+      "Second Category": "MOSFETs",
+      "MFR.Part": "2N7002",
+      "Package": "SOT-23",
+      "Solder Joint": 0,
+      "Manufacturer": "Jiangsu Changjing Electronics Technology Co., Ltd.",
+      "Library Type": "Basic",
+      "Description": "1 N-channel 115mA 2.5V 225mW 25pF 50pF 5pF 5Ω@10V 60V N-Channel ±20V",
+      "Datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--2N7002_C8545.pdf",
+      "Price": "1-499:0.016,500-2999:0.013,3000-5999:0.011,6000-:0.010",
+      "Stock": "1858711"
+    }
+  }
+]

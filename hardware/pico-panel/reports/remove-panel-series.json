@@ -1,0 +1,34 @@
+{
+  "removed": [
+    "R20",
+    "R21",
+    "R22",
+    "R23",
+    "R24",
+    "R25",
+    "R26",
+    "R27",
+    "R28",
+    "R29",
+    "R30",
+    "R31"
+  ],
+  "components": 103,
+  "unchanged_placement": true,
+  "tracks": 0,
+  "layers": 2,
+  "direct_signals": {
+    "MCU_R1": "PANEL_R1",
+    "MCU_G1": "PANEL_G1",
+    "MCU_B1": "PANEL_B1",
+    "MCU_R2": "PANEL_R2",
+    "MCU_G2": "PANEL_G2",
+    "MCU_B2": "PANEL_B2",
+    "MCU_A": "PANEL_A",
+    "MCU_B": "PANEL_B",
+    "MCU_C": "PANEL_C",
+    "MCU_SCLK": "PANEL_SCLK",
+    "MCU_LAT": "PANEL_LAT",
+    "MCU_OE": "PANEL_OE"
+  }
+}

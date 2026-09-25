@@ -5,6 +5,19 @@ memory, and a hardware-tested YD-RP2040 / Raspberry Pi Pico PIO + DMA static
 display implementation. Wiring, initialization protocol, source, tests and
 ready-to-flash firmware are included.
 
+## Custom Controller PCB (Draft)
+
+Самостоятелна двуслойна платка **88 x 46.1 mm** с RP2040, 8 MiB flash,
+вертикална USB-C, RS-485 и W5500 Ethernet с вертикална RJ45.
+
+**НЕ Е ГОТОВА ЗА ПРОИЗВОДСТВО.** Публикувани са схемата, 103 компонента,
+ръчната подредба и пробно трасиране. След корекциите: 0 DRC нарушения,
+но остава 1 неопроводена връзка QSPI_D1. Сигналната цялост и захранването
+още не са квалифицирани. Това не променя статуса на работещия Pico модул.
+
+- [PCB files, current status and documentation](hardware/pico-panel/README.md)
+- [Пробно трасиране и ограничения](hardware/pico-panel/routing-trial/README_BG.md)
+
 ## RP2040 Pico
 
 Потвърден работещ вариант с **YD-RP2040 2022-V1.3, 8 MiB flash**:

@@ -1,0 +1,1483 @@
+[
+  {
+    "ref": "U1",
+    "value": "RP2040",
+    "lib": "MCU_RaspberryPi:RP2040",
+    "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm",
+    "nets": {
+      "1": "3V3",
+      "10": "3V3",
+      "22": "3V3",
+      "33": "3V3",
+      "42": "3V3",
+      "43": "3V3",
+      "44": "3V3",
+      "48": "3V3",
+      "49": "3V3",
+      "23": "1V1",
+      "45": "1V1",
+      "50": "1V1",
+      "2": "UART_TX",
+      "3": "UART_RX",
+      "18": "RS485_DIR",
+      "19": "GND",
+      "20": "XIN",
+      "21": "XOUT",
+      "24": "SWCLK",
+      "25": "SWDIO",
+      "26": "RUN",
+      "35": "PANEL_SENSE",
+      "36": "USB_SENSE",
+      "37": "LED_STATUS",
+      "46": "USB_DM_MCU",
+      "47": "USB_DP_MCU",
+      "51": "QSPI_D3",
+      "52": "QSPI_CLK",
+      "53": "QSPI_D0",
+      "54": "QSPI_D2",
+      "55": "QSPI_D1",
+      "56": "QSPI_CS",
+      "57": "GND",
+      "4": "MCU_R1",
+      "5": "MCU_G1",
+      "6": "MCU_B1",
+      "7": "MCU_R2",
+      "8": "MCU_G2",
+      "9": "MCU_B2",
+      "11": "MCU_A",
+      "12": "MCU_B",
+      "13": "MCU_C",
+      "14": "MCU_SCLK",
+      "15": "MCU_LAT",
+      "16": "MCU_OE"
+    },
+    "pcb": [
+      35,
+      23
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C2040",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "U2",
+    "value": "W25Q64JVSSIQ",
+    "lib": "Panel:W25Q64JVSSIQ",
+    "footprint": "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm",
+    "nets": {
+      "1": "QSPI_CS",
+      "2": "QSPI_D1",
+      "3": "QSPI_D2",
+      "4": "GND",
+      "5": "QSPI_D0",
+      "6": "QSPI_CLK",
+      "7": "QSPI_D3",
+      "8": "3V3"
+    },
+    "pcb": [
+      34,
+      10.7
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C179171",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R1",
+    "value": "10k",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "3V3",
+      "2": "QSPI_CS"
+    },
+    "pcb": [
+      28,
+      11
+    ],
+    "rot": 90,
+    "side": "F",
+    "lcsc": "C25804",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R2",
+    "value": "1k",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "QSPI_CS",
+      "2": "BOOT_SW"
+    },
+    "pcb": [
+      36.5,
+      5.3
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C21190",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "SW1",
+    "value": "BOOTSEL",
+    "lib": "Switch:SW_Push",
+    "footprint": "Button_Switch_SMD:SW_SPST_TL3342",
+    "nets": {
+      "1": "BOOT_SW",
+      "2": "GND"
+    },
+    "pcb": [
+      30,
+      4.5
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "SW2",
+    "value": "RESET",
+    "lib": "Switch:SW_Push",
+    "footprint": "Button_Switch_SMD:SW_SPST_TL3342",
+    "nets": {
+      "1": "RUN",
+      "2": "GND"
+    },
+    "pcb": [
+      20.5,
+      4.5
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "R3",
+    "value": "10k",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "3V3",
+      "2": "RUN"
+    },
+    "pcb": [
+      40,
+      32
+    ],
+    "rot": 90,
+    "side": "F",
+    "lcsc": "C25804",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "Y1",
+    "value": "ABM8-272-T3 12MHz",
+    "lib": "Device:Crystal_GND24",
+    "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+    "nets": {
+      "1": "XIN",
+      "2": "GND",
+      "3": "XTAL_OUT",
+      "4": "GND"
+    },
+    "pcb": [
+      35,
+      32
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C20625731",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R4",
+    "value": "1k",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "XOUT",
+      "2": "XTAL_OUT"
+    },
+    "pcb": [
+      35,
+      29.4
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C21190",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "C1",
+    "value": "15p",
+    "lib": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "XIN",
+      "2": "GND"
+    },
+    "pcb": [
+      31.7,
+      32
+    ],
+    "rot": 90,
+    "side": "F",
+    "lcsc": "C1644",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "C2",
+    "value": "15p",
+    "lib": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "XTAL_OUT",
+      "2": "GND"
+    },
+    "pcb": [
+      38.3,
+      32
+    ],
+    "rot": 90,
+    "side": "F",
+    "lcsc": "C1644",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "C3",
+    "value": "100n",
+    "lib": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "pcb": [
+      39.5,
+      13
+    ],
+    "rot": 90,
+    "side": "F",
+    "lcsc": "C14663",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "C4",
+    "value": "100n",
+    "lib": "Device:C",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "pcb": [
+      30,
+      20
+    ],
+    "rot": 90,
+    "side": "F",
+    "lcsc": "C1525",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "C5",
+    "value": "100n",
+    "lib": "Device:C",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "pcb": [
+      30,
+      24
+    ],
+    "rot": 90,
+    "side": "F",
+    "lcsc": "C1525",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "C6",
+    "value": "100n",
+    "lib": "Device:C",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "pcb": [
+      35.2,
+      27.9
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C1525",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "C7",
+    "value": "100n",
+    "lib": "Device:C",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "pcb": [
+      40,
+      24
+    ],
+    "rot": 90,
+    "side": "F",
+    "lcsc": "C1525",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "C8",
+    "value": "100n",
+    "lib": "Device:C",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "pcb": [
+      40,
+      20.5
+    ],
+    "rot": 90,
+    "side": "F",
+    "lcsc": "C1525",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "C9",
+    "value": "100n",
+    "lib": "Device:C",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "pcb": [
+      40,
+      18
+    ],
+    "rot": 90,
+    "side": "F",
+    "lcsc": "C1525",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "C10",
+    "value": "100n",
+    "lib": "Device:C",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "pcb": [
+      45,
+      20
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C1525",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "C11",
+    "value": "100n",
+    "lib": "Device:C",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "pcb": [
+      33.5,
+      18
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C1525",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "C12",
+    "value": "100n",
+    "lib": "Device:C",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "pcb": [
+      31.2,
+      18
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C1525",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "C13",
+    "value": "100n",
+    "lib": "Device:C",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "nets": {
+      "1": "1V1",
+      "2": "GND"
+    },
+    "pcb": [
+      37.6,
+      27.9
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C1525",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "C14",
+    "value": "100n",
+    "lib": "Device:C",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "nets": {
+      "1": "1V1",
+      "2": "GND"
+    },
+    "pcb": [
+      33.5,
+      16.3
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C1525",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "C15",
+    "value": "1u",
+    "lib": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "1V1",
+      "2": "GND"
+    },
+    "pcb": [
+      43,
+      23.5
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C15849",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "C16",
+    "value": "1u",
+    "lib": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "pcb": [
+      43,
+      18
+    ],
+    "rot": 90,
+    "side": "F",
+    "lcsc": "C15849",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "J4",
+    "value": "SWD 3V3 GND CLK IO RUN",
+    "lib": "Connector_Generic:Conn_01x05",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+    "nets": {
+      "1": "3V3",
+      "2": "GND",
+      "3": "SWCLK",
+      "4": "SWDIO",
+      "5": "RUN"
+    },
+    "pcb": [
+      43,
+      43
+    ],
+    "rot": 90,
+    "side": "F",
+    "lcsc": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "R5",
+    "value": "1k",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "LED_STATUS",
+      "2": "LED_A"
+    },
+    "pcb": [
+      51,
+      23
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C21190",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "D1",
+    "value": "STATUS green",
+    "lib": "Device:LED",
+    "footprint": "LED_SMD:LED_0805_2012Metric",
+    "nets": {
+      "1": "GND",
+      "2": "LED_A"
+    },
+    "pcb": [
+      55.8,
+      15.6
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C2297",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "J2",
+    "value": "USB-C VERTICAL H6.5",
+    "lib": "Connector:USB_C_Receptacle_USB2.0_16P",
+    "footprint": "Panel:USB_C_SHOUHAN_TYPE-C_16PLT-H6.5_Vertical",
+    "nets": {
+      "A1": "GND",
+      "A12": "GND",
+      "B1": "GND",
+      "B12": "GND",
+      "SH": "GND",
+      "A4": "USB_5V",
+      "A9": "USB_5V",
+      "B4": "USB_5V",
+      "B9": "USB_5V",
+      "A5": "CC1",
+      "B5": "CC2",
+      "A6": "USB_DP",
+      "B6": "USB_DP",
+      "A7": "USB_DM",
+      "B7": "USB_DM"
+    },
+    "pcb": [
+      47,
+      5
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C3151748",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R6",
+    "value": "5.1k",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "CC1",
+      "2": "GND"
+    },
+    "pcb": [
+      53.5,
+      10.5
+    ],
+    "rot": 90,
+    "side": "F",
+    "lcsc": "C23186",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R7",
+    "value": "5.1k",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "CC2",
+      "2": "GND"
+    },
+    "pcb": [
+      40.7,
+      9.5
+    ],
+    "rot": 90,
+    "side": "F",
+    "lcsc": "C23186",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "U3",
+    "value": "USBLC6-2SC6",
+    "lib": "Power_Protection:USBLC6-2SC6",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+    "nets": {
+      "1": "USB_DP",
+      "6": "USB_DP",
+      "3": "USB_DM",
+      "4": "USB_DM",
+      "2": "GND",
+      "5": "USB_5V"
+    },
+    "pcb": [
+      46.5,
+      12.7
+    ],
+    "rot": 90,
+    "side": "F",
+    "lcsc": "C7519",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R8",
+    "value": "27",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "USB_DP",
+      "2": "USB_DP_MCU"
+    },
+    "pcb": [
+      35.8,
+      17.2
+    ],
+    "rot": 270,
+    "side": "F",
+    "lcsc": "C25190",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R9",
+    "value": "27",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "USB_DM",
+      "2": "USB_DM_MCU"
+    },
+    "pcb": [
+      37.5,
+      17.2
+    ],
+    "rot": 270,
+    "side": "F",
+    "lcsc": "C25190",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "C17",
+    "value": "1u",
+    "lib": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "USB_5V",
+      "2": "GND"
+    },
+    "pcb": [
+      51,
+      13
+    ],
+    "rot": 90,
+    "side": "F",
+    "lcsc": "C15849",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R10",
+    "value": "100k",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "USB_5V",
+      "2": "USB_SENSE"
+    },
+    "pcb": [
+      48,
+      23.5
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C25803",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R11",
+    "value": "100k",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "USB_SENSE",
+      "2": "GND"
+    },
+    "pcb": [
+      50,
+      16.3
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C25803",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "J3",
+    "value": "PANEL POWER +5V GND",
+    "lib": "Connector_Generic:Conn_01x02",
+    "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",
+    "nets": {
+      "1": "PANEL_5V_IN",
+      "2": "GND"
+    },
+    "pcb": [
+      4,
+      6
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "F1",
+    "value": "PTC 0.5A",
+    "lib": "Device:Polyfuse",
+    "footprint": "Fuse:Fuse_1206_3216Metric",
+    "nets": {
+      "1": "PANEL_5V_IN",
+      "2": "PANEL_5V"
+    },
+    "pcb": [
+      5,
+      13
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C70076",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "D2",
+    "value": "SS14",
+    "lib": "Device:D_Schottky",
+    "footprint": "Diode_SMD:D_SMA",
+    "nets": {
+      "1": "SYS_5V",
+      "2": "PANEL_5V"
+    },
+    "pcb": [
+      4.7,
+      17
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C2480",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "U4",
+    "value": "AP2112K-3.3",
+    "lib": "Regulator_Linear:AP2112K-3.3",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+    "nets": {
+      "1": "SYS_5V",
+      "2": "GND",
+      "3": "SYS_5V",
+      "5": "3V3"
+    },
+    "pcb": [
+      5,
+      25
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C51118",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "C18",
+    "value": "4.7u",
+    "lib": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "SYS_5V",
+      "2": "GND"
+    },
+    "pcb": [
+      5,
+      21.5
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C19666",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "C19",
+    "value": "4.7u",
+    "lib": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "pcb": [
+      5,
+      28.7
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C19666",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R12",
+    "value": "100k",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "PANEL_5V",
+      "2": "PANEL_SENSE"
+    },
+    "pcb": [
+      5,
+      31
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C25803",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R13",
+    "value": "100k",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "PANEL_SENSE",
+      "2": "GND"
+    },
+    "pcb": [
+      5,
+      33
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C25803",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "J1",
+    "value": "PANEL BOTTOM 2x8",
+    "lib": "Connector_Generic:Conn_02x08_Odd_Even",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical",
+    "nets": {
+      "1": "PANEL_R1",
+      "2": "PANEL_G1",
+      "3": "PANEL_B1",
+      "5": "PANEL_R2",
+      "6": "PANEL_G2",
+      "7": "PANEL_B2",
+      "9": "PANEL_A",
+      "10": "PANEL_B",
+      "11": "PANEL_C",
+      "13": "PANEL_SCLK",
+      "14": "PANEL_LAT",
+      "15": "PANEL_OE",
+      "4": "GND",
+      "8": "GND",
+      "12": "GND",
+      "16": "GND"
+    },
+    "pcb": [
+      13.202,
+      15.6
+    ],
+    "rot": 0,
+    "side": "B",
+    "lcsc": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "R20",
+    "value": "33",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "MCU_R1",
+      "2": "PANEL_R1"
+    },
+    "pcb": [
+      25,
+      14.0
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C23140",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R40",
+    "value": "47k",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "PANEL_R1",
+      "2": "GND"
+    },
+    "pcb": [
+      10,
+      14.0
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C25819",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R21",
+    "value": "33",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "MCU_G1",
+      "2": "PANEL_G1"
+    },
+    "pcb": [
+      25,
+      15.7
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C23140",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R41",
+    "value": "47k",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "PANEL_G1",
+      "2": "GND"
+    },
+    "pcb": [
+      10,
+      15.7
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C25819",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R22",
+    "value": "33",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "MCU_B1",
+      "2": "PANEL_B1"
+    },
+    "pcb": [
+      25,
+      17.4
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C23140",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R42",
+    "value": "47k",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "PANEL_B1",
+      "2": "GND"
+    },
+    "pcb": [
+      10,
+      17.4
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C25819",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R23",
+    "value": "33",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "MCU_R2",
+      "2": "PANEL_R2"
+    },
+    "pcb": [
+      25,
+      19.1
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C23140",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R43",
+    "value": "47k",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "PANEL_R2",
+      "2": "GND"
+    },
+    "pcb": [
+      10,
+      19.1
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C25819",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R24",
+    "value": "33",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "MCU_G2",
+      "2": "PANEL_G2"
+    },
+    "pcb": [
+      25,
+      20.8
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C23140",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R44",
+    "value": "47k",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "PANEL_G2",
+      "2": "GND"
+    },
+    "pcb": [
+      10,
+      20.8
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C25819",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R25",
+    "value": "33",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "MCU_B2",
+      "2": "PANEL_B2"
+    },
+    "pcb": [
+      25,
+      22.5
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C23140",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R45",
+    "value": "47k",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "PANEL_B2",
+      "2": "GND"
+    },
+    "pcb": [
+      10,
+      22.5
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C25819",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R26",
+    "value": "33",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "MCU_A",
+      "2": "PANEL_A"
+    },
+    "pcb": [
+      25,
+      24.2
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C23140",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R46",
+    "value": "47k",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "PANEL_A",
+      "2": "GND"
+    },
+    "pcb": [
+      10,
+      24.2
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C25819",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R27",
+    "value": "33",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "MCU_B",
+      "2": "PANEL_B"
+    },
+    "pcb": [
+      25,
+      25.9
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C23140",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R47",
+    "value": "47k",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "PANEL_B",
+      "2": "GND"
+    },
+    "pcb": [
+      10,
+      25.9
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C25819",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R28",
+    "value": "33",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "MCU_C",
+      "2": "PANEL_C"
+    },
+    "pcb": [
+      25,
+      27.6
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C23140",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R48",
+    "value": "47k",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "PANEL_C",
+      "2": "GND"
+    },
+    "pcb": [
+      10,
+      27.6
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C25819",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R29",
+    "value": "33",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "MCU_SCLK",
+      "2": "PANEL_SCLK"
+    },
+    "pcb": [
+      25,
+      29.299999999999997
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C23140",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R49",
+    "value": "47k",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "PANEL_SCLK",
+      "2": "GND"
+    },
+    "pcb": [
+      10,
+      29.299999999999997
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C25819",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R30",
+    "value": "33",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "MCU_LAT",
+      "2": "PANEL_LAT"
+    },
+    "pcb": [
+      25,
+      31.0
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C23140",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R50",
+    "value": "47k",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "PANEL_LAT",
+      "2": "GND"
+    },
+    "pcb": [
+      10,
+      31.0
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C25819",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R31",
+    "value": "33",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "MCU_OE",
+      "2": "PANEL_OE"
+    },
+    "pcb": [
+      25,
+      32.7
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C23140",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R51",
+    "value": "47k",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "PANEL_OE",
+      "2": "GND"
+    },
+    "pcb": [
+      10,
+      32.7
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C25819",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "U7",
+    "value": "SN65HVD75DR",
+    "lib": "Panel:SN65HVD75DR",
+    "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+    "nets": {
+      "1": "UART_RX",
+      "2": "RS485_DIR",
+      "3": "RS485_DIR",
+      "4": "UART_TX",
+      "5": "GND",
+      "6": "RS485_A",
+      "7": "RS485_B",
+      "8": "3V3"
+    },
+    "pcb": [
+      22,
+      37
+    ],
+    "rot": 180,
+    "side": "F",
+    "lcsc": "C57928",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "C22",
+    "value": "100n",
+    "lib": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "pcb": [
+      20.5,
+      40.6
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "C14663",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "R18",
+    "value": "10k",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "RS485_DIR",
+      "2": "GND"
+    },
+    "pcb": [
+      27.5,
+      37.5
+    ],
+    "rot": 90,
+    "side": "F",
+    "lcsc": "C25804",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "D4",
+    "value": "SM712",
+    "lib": "Diode:SM712_SOT23",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "RS485_A",
+      "2": "RS485_B",
+      "3": "GND"
+    },
+    "pcb": [
+      19.5,
+      43.5
+    ],
+    "rot": 90,
+    "side": "F",
+    "lcsc": "C32677",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "J5",
+    "value": "RS485 A B GND",
+    "lib": "Connector_Generic:Conn_01x03",
+    "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal",
+    "nets": {
+      "1": "RS485_A",
+      "2": "RS485_B",
+      "3": "GND"
+    },
+    "pcb": [
+      4,
+      40
+    ],
+    "rot": 0,
+    "side": "F",
+    "lcsc": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "R19",
+    "value": "120 0.25W",
+    "lib": "Device:R",
+    "footprint": "Resistor_SMD:R_1206_3216Metric",
+    "nets": {
+      "1": "RS485_A",
+      "2": "TERM"
+    },
+    "pcb": [
+      23.3,
+      43.5
+    ],
+    "rot": 90,
+    "side": "F",
+    "lcsc": "C17909",
+    "assembly": "SMT"
+  },
+  {
+    "ref": "JP1",
+    "value": "TERM 120R",
+    "lib": "Connector_Generic:Conn_01x02",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "nets": {
+      "1": "TERM",
+      "2": "RS485_B"
+    },
+    "pcb": [
+      28,
+      43
+    ],
+    "rot": 90,
+    "side": "F",
+    "lcsc": "",
+    "assembly": "HAND"
+  }
+]
