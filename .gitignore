@@ -35,3 +35,8 @@ video/animation-process.json
 video/animation.stop
 logs/animation-loop.*.log
 logs/video-animation-loop.json
+
+# Pico build output and pre-existing user flash (may contain private files).
+pico/build/
+pico/generated/
+pico/backups/

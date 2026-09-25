@@ -1,0 +1,31 @@
+{
+  "wave_bytes": 137194,
+  "descriptors": 1138,
+  "descriptor_bytes": 18208,
+  "startup_seconds": 0.74946272,
+  "gpio_base": 2,
+  "gpio_count": 12,
+  "sample_ns": 320,
+  "sclk_hz": 1562500
+}
+test_config (test_wave.WaveTests.test_config) ... ok
+test_pins_and_clock (test_wave.WaveTests.test_pins_and_clock) ... ok
+test_scan (test_wave.WaveTests.test_scan) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.059s
+
+OK
+FPGA reference complete:     1164872 clocks
+C:\Users\user\Documents\fpga\pico\tb_reference.v:20: $finish called at 281294135000 (1ps)
+PASS: 1164872 rising-clock GPIO samples exactly match original FPGA RTL
+{
+  "wave_bytes": 137194,
+  "descriptors": 1138,
+  "descriptor_bytes": 18208,
+  "startup_seconds": 0.74946272,
+  "gpio_base": 2,
+  "gpio_count": 12,
+  "sample_ns": 320,
+  "sclk_hz": 1562500
+}

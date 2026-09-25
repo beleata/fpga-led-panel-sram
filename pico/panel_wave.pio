@@ -1,0 +1,8 @@
+.program panel_wave
+; One 16-bit DMA sample controls GP2..GP13 for exactly 40 cycles at 125 MHz.
+; A 16-bit DMA write is replicated across the FIFO bus; autopull discards
+; the unused upper copy after the first 16 bits.
+.wrap_target
+    out pins, 12 [31]
+    out null, 4 [7]
+.wrap

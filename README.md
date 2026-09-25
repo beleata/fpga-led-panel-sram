@@ -1,4 +1,25 @@
-# FPGA SRAM LED Panel
+# ICND1065L LED Panel: FPGA SRAM and RP2040 Pico
+
+64x32 ICND1065L RGB LED panel drivers: Olimex iCE40HX1K FPGA with SRAM video
+memory, and a hardware-tested YD-RP2040 / Raspberry Pi Pico PIO + DMA static
+display implementation. Wiring, initialization protocol, source, tests and
+ready-to-flash firmware are included.
+
+## RP2040 Pico
+
+Потвърден работещ вариант с **YD-RP2040 2022-V1.3, 8 MiB flash**:
+правилна геометрична фигура и стабилна картина. PIO и DMA изпълняват
+проверената FPGA последователност при SCLK **1.5625 MHz**.
+
+- [Свързване, компилиране и инструкции](pico/README_BG.md)
+- [Готов firmware за YD-RP2040 8 MiB](pico/pico_panel.uf2)
+- [Изходен код и тестове](pico/)
+
+Този вариант засега показва статична фигура. Приемането на нови кадри по
+USB/UART за Pico още не е реализирано. SRAM video функционалността по-долу
+се отнася за FPGA варианта.
+
+## FPGA SRAM
 
 Работещ проект за **Olimex iCE40HX1K-EVB**, RGB LED панел **64 x 32** с
 ICND1065L драйвери и външна SRAM видео памет. Изображенията се изпращат от
@@ -55,6 +76,7 @@ python video/animate.py --cycles 3
 | Път | Предназначение |
 |---|---|
 | `video/` | Текущ SRAM драйвер, UART протокол, клиенти, тестове и bitstream |
+| `pico/` | Потвърден RP2040 PIO/DMA статичен драйвер, UF2, свързване и тестове |
 | `panel/` | Потвърдена стабилна статична версия за възстановяване |
 | `link_test/` | UART диагностика и измервания на скоростта |
 | `programmer-fw/` | OLIMEXINO USB/SPI/UART програматор и готов firmware |
