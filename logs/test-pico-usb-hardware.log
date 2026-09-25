@@ -1,0 +1,17 @@
+{
+  "result": "PASS",
+  "crc_rejected": true,
+  "timeout_recovered": true,
+  "usb_reopen_kept_frame": true,
+  "accepted": 70,
+  "seconds": 5.189,
+  "fps": 13.49,
+  "final": {
+    "status": "STATUS",
+    "sequence": 1,
+    "crc": 27468,
+    "frames": 91,
+    "txstall": 0,
+    "dma_error": 0
+  }
+}

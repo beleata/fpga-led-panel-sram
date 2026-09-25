@@ -1,8 +1,8 @@
 # ICND1065L LED Panel: FPGA SRAM and RP2040 Pico
 
 64x32 ICND1065L RGB LED panel drivers: Olimex iCE40HX1K FPGA with SRAM video
-memory, and a hardware-tested YD-RP2040 / Raspberry Pi Pico PIO + DMA static
-display implementation. Wiring, initialization protocol, source, tests and
+memory, and a YD-RP2040 / Raspberry Pi Pico PIO + DMA display implementation
+with USB frame streaming. Wiring, initialization protocol, source, tests and
 ready-to-flash firmware are included.
 
 ## Custom Controller PCB (Draft)
@@ -28,9 +28,12 @@ ready-to-flash firmware are included.
 - [Готов firmware за YD-RP2040 8 MiB](pico/pico_panel.uf2)
 - [Изходен код и тестове](pico/)
 
-Този вариант засега показва статична фигура. Приемането на нови кадри по
-USB/UART за Pico още не е реализирано. SRAM video функционалността по-долу
-се отнася за FPGA варианта.
+Добавен е USB CDC приемник с два RGB888 буфера във вътрешната SRAM на Pico.
+PC декодира GIF и изпраща кадрите; Pico пази последния кадър при спиране
+на изпращането. [USB видео: инструкции и протокол](pico/USB_VIDEO_BG.md).
+Новият [USB firmware](pico/pico_panel_usb.uf2) е отделен от стария статичен UF2.
+Измерени са 13,49 кадъра/s при 70 последователни кадъра, без PIO/DMA грешки;
+визуалната проверка на новата анимация предстои.
 
 ## FPGA SRAM
 

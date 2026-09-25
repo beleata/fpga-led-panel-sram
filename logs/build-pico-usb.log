@@ -1,0 +1,100 @@
+{
+  "wave_bytes": 137194,
+  "descriptors": 1138,
+  "descriptor_bytes": 18208,
+  "startup_seconds": 0.74946272,
+  "gpio_base": 2,
+  "gpio_count": 12,
+  "sample_ns": 320,
+  "sclk_hz": 1562500
+}
+PICO_SDK_PATH is C:/Users/user/.cache/pico-panel/pico-sdk
+Target board (PICO_BOARD) is 'vcc-gnd_yd-rp2040_8m'.
+Using board configuration from C:/Users/user/.cache/pico-panel/pico-sdk/src/boards/include/boards/vcc-gnd_yd-rp2040_8m.h
+Pico Platform (PICO_PLATFORM) is 'rp2040'.
+Build type is Release
+TinyUSB available at C:/Users/user/.cache/pico-panel/pico-sdk/lib/tinyusb/hw/bsp/rp2040; enabling build support for USB.
+C library type is newlib
+Using picotool from C:/Users/user/.cache/pico-panel/picotool-2.3.1-x64-win/picotool/picotool.exe
+-- Configuring done (0.4s)
+-- Generating done (0.2s)
+-- Build files have been written to: C:/Users/user/Documents/fpga/pico/build
+[1/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+[2/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/common/pico_util/fixed_bitset.c.obj
+[3/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/common/pico_util/datetime.c.obj
+[4/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/common/pico_util/queue.c.obj
+[5/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/common/pico_util/pheap.c.obj
+[6/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+[7/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+[8/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/common/pico_time/time.c.obj
+[9/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+[10/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+[11/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+[12/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+[13/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+[14/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
+[15/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_flash/flash.c.obj
+[16/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+[17/75] Building CXX object CMakeFiles/pico_panel.dir/main.cpp.obj
+[18/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
+[19/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+[20/75] Building ASM object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+[21/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+[22/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+[23/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+[24/75] Building ASM object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+[25/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
+[26/75] Building ASM object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+[27/75] Building ASM object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+[28/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
+[29/75] Building ASM object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+[30/75] Building ASM object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+[31/75] Building ASM object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+[32/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+[33/75] Building ASM object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+[34/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+[35/75] Building ASM object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+[36/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
+[37/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+[38/75] Building CXX object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
+[39/75] Building ASM object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
+[40/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+[41/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj
+[42/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+[43/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+[44/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_clib_interface/cxa_guard.c.obj
+[45/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+[46/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+[47/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+[48/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+[49/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+[50/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.obj
+[51/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+[52/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_usb_reset/usb_reset.c.obj
+[53/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+[54/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+[55/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+[56/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+[57/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+[58/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+[59/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+[60/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+[61/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+[62/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+[63/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+[64/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+[65/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+[66/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+[67/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+[68/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+[69/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_thread_local/thread_local.c.obj
+[70/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+[71/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/lib/tinyusb/src/tusb.c.obj
+[72/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+[73/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+[74/75] Building C object CMakeFiles/pico_panel.dir/C_/Users/user/.cache/pico-panel/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+[75/75] Linking CXX executable pico_panel.elf
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          CFE283322812B024F7CE4E56E1FAB42446C9BFC3EB83F85C0D9E7621639E9FD6       C:\Users\user\Documents\fpga\pic…

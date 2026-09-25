@@ -1,0 +1,99 @@
+The device was asked to reboot into BOOTSEL mode so the command can be executed.
+
+Loading into Flash:   [                              ]  0%
+Loading into Flash:   [                              ]  2%
+Loading into Flash:   [=                             ]  4%
+Loading into Flash:   [=                             ]  6%
+Loading into Flash:   [==                            ]  9%
+Loading into Flash:   [===                           ]  11%
+Loading into Flash:   [===                           ]  13%
+Loading into Flash:   [====                          ]  15%
+Loading into Flash:   [=====                         ]  18%
+Loading into Flash:   [======                        ]  20%
+Loading into Flash:   [======                        ]  22%
+Loading into Flash:   [=======                       ]  24%
+Loading into Flash:   [========                      ]  27%
+Loading into Flash:   [========                      ]  29%
+Loading into Flash:   [=========                     ]  31%
+Loading into Flash:   [=========                     ]  33%
+Loading into Flash:   [==========                    ]  36%
+Loading into Flash:   [===========                   ]  38%
+Loading into Flash:   [============                  ]  40%
+Loading into Flash:   [============                  ]  42%
+Loading into Flash:   [=============                 ]  45%
+Loading into Flash:   [==============                ]  47%
+Loading into Flash:   [==============                ]  49%
+Loading into Flash:   [===============               ]  51%
+Loading into Flash:   [================              ]  54%
+Loading into Flash:   [================              ]  56%
+Loading into Flash:   [=================             ]  58%
+Loading into Flash:   [==================            ]  60%
+Loading into Flash:   [==================            ]  63%
+Loading into Flash:   [===================           ]  65%
+Loading into Flash:   [====================          ]  67%
+Loading into Flash:   [====================          ]  69%
+Loading into Flash:   [=====================         ]  72%
+Loading into Flash:   [======================        ]  74%
+Loading into Flash:   [======================        ]  76%
+Loading into Flash:   [=======================       ]  78%
+Loading into Flash:   [========================      ]  81%
+Loading into Flash:   [========================      ]  83%
+Loading into Flash:   [=========================     ]  85%
+Loading into Flash:   [==========================    ]  88%
+Loading into Flash:   [===========================   ]  90%
+Loading into Flash:   [===========================   ]  92%
+Loading into Flash:   [============================  ]  94%
+Loading into Flash:   [============================= ]  97%
+Loading into Flash:   [============================= ]  99%
+Loading into Flash:   [==============================]  100%
+
+Verifying Flash:      [                              ]  0%
+Verifying Flash:      [                              ]  2%
+Verifying Flash:      [=                             ]  4%
+Verifying Flash:      [=                             ]  6%
+Verifying Flash:      [==                            ]  9%
+Verifying Flash:      [===                           ]  11%
+Verifying Flash:      [===                           ]  13%
+Verifying Flash:      [====                          ]  15%
+Verifying Flash:      [=====                         ]  18%
+Verifying Flash:      [======                        ]  20%
+Verifying Flash:      [======                        ]  22%
+Verifying Flash:      [=======                       ]  24%
+Verifying Flash:      [========                      ]  27%
+Verifying Flash:      [========                      ]  29%
+Verifying Flash:      [=========                     ]  31%
+Verifying Flash:      [=========                     ]  33%
+Verifying Flash:      [==========                    ]  36%
+Verifying Flash:      [===========                   ]  38%
+Verifying Flash:      [============                  ]  40%
+Verifying Flash:      [============                  ]  42%
+Verifying Flash:      [=============                 ]  45%
+Verifying Flash:      [==============                ]  47%
+Verifying Flash:      [==============                ]  49%
+Verifying Flash:      [===============               ]  51%
+Verifying Flash:      [================              ]  54%
+Verifying Flash:      [================              ]  56%
+Verifying Flash:      [=================             ]  58%
+Verifying Flash:      [==================            ]  60%
+Verifying Flash:      [==================            ]  63%
+Verifying Flash:      [===================           ]  65%
+Verifying Flash:      [====================          ]  67%
+Verifying Flash:      [====================          ]  69%
+Verifying Flash:      [=====================         ]  72%
+Verifying Flash:      [======================        ]  74%
+Verifying Flash:      [======================        ]  76%
+Verifying Flash:      [=======================       ]  78%
+Verifying Flash:      [========================      ]  81%
+Verifying Flash:      [========================      ]  83%
+Verifying Flash:      [=========================     ]  85%
+Verifying Flash:      [==========================    ]  88%
+Verifying Flash:      [===========================   ]  90%
+Verifying Flash:      [===========================   ]  92%
+Verifying Flash:      [============================  ]  94%
+Verifying Flash:      [============================= ]  97%
+Verifying Flash:      [============================= ]  99%
+Verifying Flash:      [==============================]  100%
+
+  OK
+
+The device was rebooted to start the application.
